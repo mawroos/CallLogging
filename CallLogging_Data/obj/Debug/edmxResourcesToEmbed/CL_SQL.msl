@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CallLoggingModelStoreContainer" CdmEntityContainer="CallLoggingEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="CallLoggingModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CUS_UID" ColumnName="CUS_UID" />
+          <ScalarProperty Name="CUS_CompanyId" ColumnName="CUS_CompanyId" />
+          <ScalarProperty Name="CUS_CustCode" ColumnName="CUS_CustCode" />
+          <ScalarProperty Name="CUS_Usergroup" ColumnName="CUS_Usergroup" />
+          <ScalarProperty Name="CUS_Name" ColumnName="CUS_Name" />
+          <ScalarProperty Name="CUS_LegalName" ColumnName="CUS_LegalName" />
+          <ScalarProperty Name="CUS_ActName" ColumnName="CUS_ActName" />
+          <ScalarProperty Name="CUS_Contact" ColumnName="CUS_Contact" />
+          <ScalarProperty Name="CUS_PStreetNo" ColumnName="CUS_PStreetNo" />
+          <ScalarProperty Name="CUS_PSuburb" ColumnName="CUS_PSuburb" />
+          <ScalarProperty Name="CUS_City" ColumnName="CUS_City" />
+          <ScalarProperty Name="CUS_PPostCode" ColumnName="CUS_PPostCode" />
+          <ScalarProperty Name="CUS_DStreetNo" ColumnName="CUS_DStreetNo" />
+          <ScalarProperty Name="CUS_DSuburb" ColumnName="CUS_DSuburb" />
+          <ScalarProperty Name="CUS_DCity" ColumnName="CUS_DCity" />
+          <ScalarProperty Name="CUS_AreaCode" ColumnName="CUS_AreaCode" />
+          <ScalarProperty Name="CUS_Phone" ColumnName="CUS_Phone" />
+          <ScalarProperty Name="CUS_Fax" ColumnName="CUS_Fax" />
+          <ScalarProperty Name="CUS_Mobile" ColumnName="CUS_Mobile" />
+          <ScalarProperty Name="CUS_Email" ColumnName="CUS_Email" />
+          <ScalarProperty Name="CUS_deptTotal" ColumnName="CUS_deptTotal" />
+          <ScalarProperty Name="CUS_CustType" ColumnName="CUS_CustType" />
+          <ScalarProperty Name="CUS_ABDNo" ColumnName="CUS_ABDNo" />
+          <ScalarProperty Name="CUS_TLA" ColumnName="CUS_TLA" />
+          <ScalarProperty Name="CUS_Premier" ColumnName="CUS_Premier" />
+          <ScalarProperty Name="CUS_References" ColumnName="CUS_References" />
+          <ScalarProperty Name="CUS_AccountType" ColumnName="CUS_AccountType" />
+          <ScalarProperty Name="CUS_ForceOrder" ColumnName="CUS_ForceOrder" />
+          <ScalarProperty Name="CUS_InActive" ColumnName="CUS_InActive" />
+          <ScalarProperty Name="CUS_OnHold" ColumnName="CUS_OnHold" />
+          <ScalarProperty Name="CUS_CreditLimit" ColumnName="CUS_CreditLimit" />
+          <ScalarProperty Name="CUS_Discount" ColumnName="CUS_Discount" />
+          <ScalarProperty Name="CUS_Termcode" ColumnName="CUS_Termcode" />
+          <ScalarProperty Name="CUS_TradeType" ColumnName="CUS_TradeType" />
+          <ScalarProperty Name="CUS_Bank" ColumnName="CUS_Bank" />
+          <ScalarProperty Name="CUS_Branch" ColumnName="CUS_Branch" />
+          <ScalarProperty Name="CUS_Payer" ColumnName="CUS_Payer" />
+          <ScalarProperty Name="CUS_Schematics" ColumnName="CUS_Schematics" />
+          <ScalarProperty Name="CUS_OperatingSystem" ColumnName="CUS_OperatingSystem" />
+          <ScalarProperty Name="CUS_Software" ColumnName="CUS_Software" />
+          <ScalarProperty Name="CUS_UserLicences" ColumnName="CUS_UserLicences" />
+          <ScalarProperty Name="CUS_LastUpdate" ColumnName="CUS_LastUpdate" />
+          <ScalarProperty Name="CUS_UpdateComment" ColumnName="CUS_UpdateComment" />
+          <ScalarProperty Name="CUS_Package" ColumnName="CUS_Package" />
+          <ScalarProperty Name="CUS_Version" ColumnName="CUS_Version" />
+          <ScalarProperty Name="CUS_Release" ColumnName="CUS_Release" />
+          <ScalarProperty Name="CUS_SoldBy" ColumnName="CUS_SoldBy" />
+          <ScalarProperty Name="CUS_Trainer" ColumnName="CUS_Trainer" />
+          <ScalarProperty Name="CUS_VPOS" ColumnName="CUS_VPOS" />
+          <ScalarProperty Name="CUS_MIDASPC" ColumnName="CUS_MIDASPC" />
+          <ScalarProperty Name="CUS_TFNZ" ColumnName="CUS_TFNZ" />
+          <ScalarProperty Name="CUS_NewTimeClocking" ColumnName="CUS_NewTimeClocking" />
+          <ScalarProperty Name="CUS_Payroll" ColumnName="CUS_Payroll" />
+          <ScalarProperty Name="CUS_TimeClocking" ColumnName="CUS_TimeClocking" />
+          <ScalarProperty Name="CUS_BankLink" ColumnName="CUS_BankLink" />
+          <ScalarProperty Name="CUS_InstalledOn" ColumnName="CUS_InstalledOn" />
+          <ScalarProperty Name="CUS_ExpiryDate" ColumnName="CUS_ExpiryDate" />
+          <ScalarProperty Name="CUS_LiveDate" ColumnName="CUS_LiveDate" />
+          <ScalarProperty Name="CUS_Industry" ColumnName="CUS_Industry" />
+          <ScalarProperty Name="CUS_DUSupport" ColumnName="CUS_DUSupport" />
+          <ScalarProperty Name="CUS_DUConnection" ColumnName="CUS_DUConnection" />
+          <ScalarProperty Name="CUS_DUMachine" ColumnName="CUS_DUMachine" />
+          <ScalarProperty Name="CUS_ModemPhoneNo" ColumnName="CUS_ModemPhoneNo" />
+          <ScalarProperty Name="CUS_SUserName" ColumnName="CUS_SUserName" />
+          <ScalarProperty Name="CUS_SPassword" ColumnName="CUS_SPassword" />
+          <ScalarProperty Name="CUS_RemoteSoftware" ColumnName="CUS_RemoteSoftware" />
+          <ScalarProperty Name="CUS_SoftwareName" ColumnName="CUS_SoftwareName" />
+          <ScalarProperty Name="CUS_SoftwarePwd" ColumnName="CUS_SoftwarePwd" />
+          <ScalarProperty Name="CUS_IPAddress" ColumnName="CUS_IPAddress" />
+          <ScalarProperty Name="CUS_SDomainName" ColumnName="CUS_SDomainName" />
+          <ScalarProperty Name="CUS_DedicatedServer" ColumnName="CUS_DedicatedServer" />
+          <ScalarProperty Name="CUS_SeeNotes" ColumnName="CUS_SeeNotes" />
+          <ScalarProperty Name="CUS_WarnMess1" ColumnName="CUS_WarnMess1" />
+          <ScalarProperty Name="CUS_Warnmess2" ColumnName="CUS_Warnmess2" />
+          <ScalarProperty Name="CUS_WarnMess3" ColumnName="CUS_WarnMess3" />
+          <ScalarProperty Name="CUS_CreationDate" ColumnName="CUS_CreationDate" />
+          <ScalarProperty Name="CUS_Licence" ColumnName="CUS_Licence" />
+          <ScalarProperty Name="CUS_TrainingComplete" ColumnName="CUS_TrainingComplete" />
+          <ScalarProperty Name="CUS_Diagram" ColumnName="CUS_Diagram" />
+          <ScalarProperty Name="CUS_SignedOff" ColumnName="CUS_SignedOff" />
+          <ScalarProperty Name="CUS_AccMan" ColumnName="CUS_AccMan" />
+          <ScalarProperty Name="CUS_SubFor" ColumnName="CUS_SubFor" />
+          <ScalarProperty Name="CUS_Ports1" ColumnName="CUS_Ports1" />
+          <ScalarProperty Name="CUS_Ports2" ColumnName="CUS_Ports2" />
+          <ScalarProperty Name="CUS_ServerIP" ColumnName="CUS_ServerIP" />
+          <ScalarProperty Name="CUS_ServerName" ColumnName="CUS_ServerName" />
+          <ScalarProperty Name="CUS_TapeDrive" ColumnName="CUS_TapeDrive" />
+          <ScalarProperty Name="CUS_ScheduledDate" ColumnName="CUS_ScheduledDate" />
+          <ScalarProperty Name="CUS_TServerName" ColumnName="CUS_TServerName" />
+          <ScalarProperty Name="CUS_TIP" ColumnName="CUS_TIP" />
+          <ScalarProperty Name="CUS_TDomain" ColumnName="CUS_TDomain" />
+          <ScalarProperty Name="CUS_TUserName" ColumnName="CUS_TUserName" />
+          <ScalarProperty Name="CUS_TPwd" ColumnName="CUS_TPwd" />
+          <ScalarProperty Name="CUS_SoftwareIP" ColumnName="CUS_SoftwareIP" />
+          <ScalarProperty Name="CUS_DUUser" ColumnName="CUS_DUUser" />
+          <ScalarProperty Name="CUS_DUPasswrd" ColumnName="CUS_DUPasswrd" />
+          <ScalarProperty Name="CUS_EmailInvoices" ColumnName="CUS_EmailInvoices" />
+          <ScalarProperty Name="CUS_NoStatement" ColumnName="CUS_NoStatement" />
+          <ScalarProperty Name="CUS_SoftUserName" ColumnName="CUS_SoftUserName" />
+          <ScalarProperty Name="CUS_SPorts1" ColumnName="CUS_SPorts1" />
+          <ScalarProperty Name="CUS_SPorts2" ColumnName="CUS_SPorts2" />
+          <ScalarProperty Name="CUS_TSPorts1" ColumnName="CUS_TSPorts1" />
+          <ScalarProperty Name="CUS_TSPorts2" ColumnName="CUS_TSPorts2" />
+          <ScalarProperty Name="CUS_RSPorts1" ColumnName="CUS_RSPorts1" />
+          <ScalarProperty Name="CUS_RSPorts2" ColumnName="CUS_RSPorts2" />
+          <ScalarProperty Name="CUS_RemoteDomain" ColumnName="CUS_RemoteDomain" />
+          <ScalarProperty Name="CUS_RemoteSDomain" ColumnName="CUS_RemoteSDomain" />
+          <ScalarProperty Name="CUS_TSOS" ColumnName="CUS_TSOS" />
+          <ScalarProperty Name="CUS_LocationFor" ColumnName="CUS_LocationFor" />
+          <ScalarProperty Name="CUS_IsTermserver" ColumnName="CUS_IsTermserver" />
+          <ScalarProperty Name="CUS_Subnet" ColumnName="CUS_Subnet" />
+          <ScalarProperty Name="CUS_CModem" ColumnName="CUS_CModem" />
+          <ScalarProperty Name="CUS_Departments" ColumnName="CUS_Departments" />
+          <ScalarProperty Name="CUS_Utilities" ColumnName="CUS_Utilities" />
+          <ScalarProperty Name="CUS_SignoffDate" ColumnName="CUS_SignoffDate" />
+          <ScalarProperty Name="CUS_EmailStatements" ColumnName="CUS_EmailStatements" />
+          <ScalarProperty Name="CUS_StaticIP" ColumnName="CUS_StaticIP" />
+          <ScalarProperty Name="CUS_BackupSoftware1" ColumnName="CUS_BackupSoftware1" />
+          <ScalarProperty Name="CUS_BackupSoftware2" ColumnName="CUS_BackupSoftware2" />
+          <ScalarProperty Name="CUS_BackupMedia1" ColumnName="CUS_BackupMedia1" />
+          <ScalarProperty Name="CUS_BackupMedia2" ColumnName="CUS_BackupMedia2" />
+          <ScalarProperty Name="CUS_BackupMedia3" ColumnName="CUS_BackupMedia3" />
+          <ScalarProperty Name="CUS_BackUpFreq" ColumnName="CUS_BackUpFreq" />
+          <ScalarProperty Name="CUS_LastBackup" ColumnName="CUS_LastBackup" />
+          <ScalarProperty Name="CUS_LastBackupBy" ColumnName="CUS_LastBackupBy" />
+          <ScalarProperty Name="CUS_LockItUser" ColumnName="CUS_LockItUser" />
+          <ScalarProperty Name="CUS_LockItPwd" ColumnName="CUS_LockItPwd" />
+          <ScalarProperty Name="CUS_LockItKey" ColumnName="CUS_LockItKey" />
+          <ScalarProperty Name="CUS_RefSite" ColumnName="CUS_RefSite" />
+          <ScalarProperty Name="CUS_DesktopSup" ColumnName="CUS_DesktopSup" />
+          <ScalarProperty Name="CUS_ExtendHrsSup" ColumnName="CUS_ExtendHrsSup" />
+          <ScalarProperty Name="CUS_WeekendSup" ColumnName="CUS_WeekendSup" />
+          <ScalarProperty Name="CUS_AutoUpdate" ColumnName="CUS_AutoUpdate" />
+          <ScalarProperty Name="CUS_PreviousSoftware" ColumnName="CUS_PreviousSoftware" />
+          <ScalarProperty Name="CUS_PSVersion" ColumnName="CUS_PSVersion" />
+          <ScalarProperty Name="CUS_MtaNo" ColumnName="CUS_MtaNo" />
+          <ScalarProperty Name="CUS_HasSecond" ColumnName="CUS_HasSecond" />
+          <ScalarProperty Name="CUS_Exclude" ColumnName="CUS_Exclude" />
+          <ScalarProperty Name="CUS_InactiveReason" ColumnName="CUS_InactiveReason" />
+          <ScalarProperty Name="CUS_SoldTo" ColumnName="CUS_SoldTo" />
+          <ScalarProperty Name="CUS_SoldToUID" ColumnName="CUS_SoldToUID" />
+          <ScalarProperty Name="CUS_UpdateSentBy" ColumnName="CUS_UpdateSentBy" />
+          <ScalarProperty Name="CUS_Combine" ColumnName="CUS_Combine" />
+          <ScalarProperty Name="CUS_InvEmail" ColumnName="CUS_InvEmail" />
+          <ScalarProperty Name="CUS_Country" ColumnName="CUS_Country" />
+          <ScalarProperty Name="CUS_PState" ColumnName="CUS_PState" />
+          <ScalarProperty Name="CUS_PCountry" ColumnName="CUS_PCountry" />
+          <ScalarProperty Name="CUS_NoCommission" ColumnName="CUS_NoCommission" />
+          <ScalarProperty Name="CUS_LTNZLic" ColumnName="CUS_LTNZLic" />
+          <ScalarProperty Name="CUS_LTNZSuspend" ColumnName="CUS_LTNZSuspend" />
+          <ScalarProperty Name="CUS_GSTNo" ColumnName="CUS_GSTNo" />
+          <ScalarProperty Name="CUS_Imported" ColumnName="CUS_Imported" />
+          <ScalarProperty Name="CUS_Accountant" ColumnName="CUS_Accountant" />
+          <ScalarProperty Name="CUS_UserLicPur" ColumnName="CUS_UserLicPur" />
+          <ScalarProperty Name="CUS_OverDue" ColumnName="CUS_OverDue" />
+          <ScalarProperty Name="CUS_RentalServer" ColumnName="CUS_RentalServer" />
+          <ScalarProperty Name="CUS_RentalPC" ColumnName="CUS_RentalPC" />
+          <ScalarProperty Name="CUS_RentalPrinter" ColumnName="CUS_RentalPrinter" />
+          <ScalarProperty Name="CUS_HostedServer" ColumnName="CUS_HostedServer" />
+          <ScalarProperty Name="CUS_CitrixHosted" ColumnName="CUS_CitrixHosted" />
+          <ScalarProperty Name="CUS_HostedMailServer" ColumnName="CUS_HostedMailServer" />
+          <ScalarProperty Name="CUS_ManagedServices" ColumnName="CUS_ManagedServices" />
+          <ScalarProperty Name="CUS_ServerSupplied" ColumnName="CUS_ServerSupplied" />
+          <ScalarProperty Name="CUS_PCSupplied" ColumnName="CUS_PCSupplied" />
+          <ScalarProperty Name="CUS_PrinterSupplied" ColumnName="CUS_PrinterSupplied" />
+          <ScalarProperty Name="CUS_Firewall" ColumnName="CUS_Firewall" />
+          <ScalarProperty Name="CUS_WarnigDate" ColumnName="CUS_WarnigDate" />
+          <ScalarProperty Name="CUS_LastUpdateBy" ColumnName="CUS_LastUpdateBy" />
+          <ScalarProperty Name="CUS_LockItBackup" ColumnName="CUS_LockItBackup" />
+          <ScalarProperty Name="CUS_VirusPrSupplied" ColumnName="CUS_VirusPrSupplied" />
+          <ScalarProperty Name="CUS_VirusPrdate" ColumnName="CUS_VirusPrdate" />
+          <ScalarProperty Name="CUS_VirusPrNo" ColumnName="CUS_VirusPrNo" />
+          <ScalarProperty Name="CUS_ServerDate" ColumnName="CUS_ServerDate" />
+          <ScalarProperty Name="CUS_ServerNos" ColumnName="CUS_ServerNos" />
+          <ScalarProperty Name="CUS_PCDate" ColumnName="CUS_PCDate" />
+          <ScalarProperty Name="CUS_PCNos" ColumnName="CUS_PCNos" />
+          <ScalarProperty Name="CUS_PrinterDate" ColumnName="CUS_PrinterDate" />
+          <ScalarProperty Name="CUS_PrinterNos" ColumnName="CUS_PrinterNos" />
+          <ScalarProperty Name="CUS_DState" ColumnName="CUS_DState" />
+          <ScalarProperty Name="CUS_DCountry" ColumnName="CUS_DCountry" />
+          <ScalarProperty Name="CUS_RentalServerDate" ColumnName="CUS_RentalServerDate" />
+          <ScalarProperty Name="CUS_RentalServerNo" ColumnName="CUS_RentalServerNo" />
+          <ScalarProperty Name="CUS_RentalPCDate" ColumnName="CUS_RentalPCDate" />
+          <ScalarProperty Name="CUS_RentalPCNo" ColumnName="CUS_RentalPCNo" />
+          <ScalarProperty Name="CUS_RentalprinterDate" ColumnName="CUS_RentalprinterDate" />
+          <ScalarProperty Name="CUS_CitrixHostingDate" ColumnName="CUS_CitrixHostingDate" />
+          <ScalarProperty Name="CUS_RentalPrinterNo" ColumnName="CUS_RentalPrinterNo" />
+          <ScalarProperty Name="CUS_CitrixHostingNumber" ColumnName="CUS_CitrixHostingNumber" />
+          <ScalarProperty Name="CUS_FirewallDate" ColumnName="CUS_FirewallDate" />
+          <ScalarProperty Name="CUS_FirewallNo" ColumnName="CUS_FirewallNo" />
+          <ScalarProperty Name="CUS_DesktopSupDate" ColumnName="CUS_DesktopSupDate" />
+          <ScalarProperty Name="CUS_DesktopSupNo" ColumnName="CUS_DesktopSupNo" />
+          <ScalarProperty Name="CUS_ISPmailServer" ColumnName="CUS_ISPmailServer" />
+          <ScalarProperty Name="CUS_ISPmailServerDate" ColumnName="CUS_ISPmailServerDate" />
+          <ScalarProperty Name="CUS_ISPmailServerNos" ColumnName="CUS_ISPmailServerNos" />
+          <ScalarProperty Name="CUS_RMVTno" ColumnName="CUS_RMVTno" />
+          <ScalarProperty Name="CUS_SSNo" ColumnName="CUS_SSNo" />
+          <ScalarProperty Name="CUS_SystemNotes" ColumnName="CUS_SystemNotes" />
+          <ScalarProperty Name="CUS_Notes" ColumnName="CUS_Notes" />
+          <ScalarProperty Name="CUS_SuspendReason" ColumnName="CUS_SuspendReason" />
+          <ScalarProperty Name="CUS_RemoteControlNotes" ColumnName="CUS_RemoteControlNotes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeletedMessages">
+      <EntityTypeMapping TypeName="CallLoggingModel.DeletedMessage">
+        <MappingFragment StoreEntitySet="DeletedMessage">
+          <ScalarProperty Name="DelMes_UID" ColumnName="DelMes_UID" />
+          <ScalarProperty Name="DelMes_DESCRIPTION" ColumnName="DelMes_DESCRIPTION" />
+          <ScalarProperty Name="DelMes_RESPONSE" ColumnName="DelMes_RESPONSE" />
+          <ScalarProperty Name="DelMes_NOTES" ColumnName="DelMes_NOTES" />
+          <ScalarProperty Name="DelMes_CompanyId" ColumnName="DelMes_CompanyId" />
+          <ScalarProperty Name="DelMes_MESSNO" ColumnName="DelMes_MESSNO" />
+          <ScalarProperty Name="DelMes_DeletedBY" ColumnName="DelMes_DeletedBY" />
+          <ScalarProperty Name="DelMes_DateDeleted" ColumnName="DelMes_DateDeleted" />
+          <ScalarProperty Name="DelMes_SYSTIMEREFERENCE" ColumnName="DelMes_SYSTIMEREFERENCE" />
+          <ScalarProperty Name="DelMes_FORWARDED" ColumnName="DelMes_FORWARDED" />
+          <ScalarProperty Name="DelMes_URGENT" ColumnName="DelMes_URGENT" />
+          <ScalarProperty Name="DelMes_OPENED" ColumnName="DelMes_OPENED" />
+          <ScalarProperty Name="DELMES_MessDateTime" ColumnName="DELMES_MessDateTime" />
+          <ScalarProperty Name="DelMes_CUSTCODE" ColumnName="DelMes_CUSTCODE" />
+          <ScalarProperty Name="DELMES_CustomerUID" ColumnName="DELMES_CustomerUID" />
+          <ScalarProperty Name="DelMes_CONTACT" ColumnName="DelMes_CONTACT" />
+          <ScalarProperty Name="DelMes_PHONE" ColumnName="DelMes_PHONE" />
+          <ScalarProperty Name="DelMes_TAKENBY" ColumnName="DelMes_TAKENBY" />
+          <ScalarProperty Name="DelMes_STAFFCODE" ColumnName="DelMes_STAFFCODE" />
+          <ScalarProperty Name="DelMes_ORDERNO" ColumnName="DelMes_ORDERNO" />
+          <ScalarProperty Name="DelMes_CATEGORY" ColumnName="DelMes_CATEGORY" />
+          <ScalarProperty Name="DelMes_PROBLEM" ColumnName="DelMes_PROBLEM" />
+          <ScalarProperty Name="DelMes_PRIORITY" ColumnName="DelMes_PRIORITY" />
+          <ScalarProperty Name="DelMes_ERROR" ColumnName="DelMes_ERROR" />
+          <ScalarProperty Name="DelMes_CHANNEL" ColumnName="DelMes_CHANNEL" />
+          <ScalarProperty Name="DelMes_RECORDNO" ColumnName="DelMes_RECORDNO" />
+          <ScalarProperty Name="DelMes_FILE" ColumnName="DelMes_FILE" />
+          <ScalarProperty Name="DelMes_LINE" ColumnName="DelMes_LINE" />
+          <ScalarProperty Name="DelMes_INPROGRAM" ColumnName="DelMes_INPROGRAM" />
+          <ScalarProperty Name="DelMes_FUNCCODE" ColumnName="DelMes_FUNCCODE" />
+          <ScalarProperty Name="DelMes_STATUS" ColumnName="DelMes_STATUS" />
+          <ScalarProperty Name="DelMes_FORWARDEDTO" ColumnName="DelMes_FORWARDEDTO" />
+          <ScalarProperty Name="DelMes_RESOLVEDON" ColumnName="DelMes_RESOLVEDON" />
+          <ScalarProperty Name="DelMes_RESOLVEDAT" ColumnName="DelMes_RESOLVEDAT" />
+          <ScalarProperty Name="DelMes_FOLLOWUPDATE" ColumnName="DelMes_FOLLOWUPDATE" />
+          <ScalarProperty Name="DelMes_PRINTED" ColumnName="DelMes_PRINTED" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="CallLoggingModel.Department">
+        <MappingFragment StoreEntitySet="Departments">
+          <ScalarProperty Name="DEP_UID" ColumnName="DEP_UID" />
+          <ScalarProperty Name="DEP_CompanyId" ColumnName="DEP_CompanyId" />
+          <ScalarProperty Name="DEP_DEPID" ColumnName="DEP_DEPID" />
+          <ScalarProperty Name="DEP_DepDesc" ColumnName="DEP_DepDesc" />
+          <ScalarProperty Name="DEP_Secondary" ColumnName="DEP_Secondary" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="CallLoggingModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="MES_UID" ColumnName="MES_UID" />
+          <ScalarProperty Name="MES_CompanyId" ColumnName="MES_CompanyId" />
+          <ScalarProperty Name="MES_MessNo" ColumnName="MES_MessNo" />
+          <ScalarProperty Name="MES_SystimeReference" ColumnName="MES_SystimeReference" />
+          <ScalarProperty Name="MES_Forwarded" ColumnName="MES_Forwarded" />
+          <ScalarProperty Name="MES_Urgent" ColumnName="MES_Urgent" />
+          <ScalarProperty Name="MES_Opened" ColumnName="MES_Opened" />
+          <ScalarProperty Name="MES_MesDateTime" ColumnName="MES_MesDateTime" />
+          <ScalarProperty Name="MES_CustCode" ColumnName="MES_CustCode" />
+          <ScalarProperty Name="MES_CustomerUID" ColumnName="MES_CustomerUID" />
+          <ScalarProperty Name="MES_Contact" ColumnName="MES_Contact" />
+          <ScalarProperty Name="MES_Phone" ColumnName="MES_Phone" />
+          <ScalarProperty Name="MES_TakenBy" ColumnName="MES_TakenBy" />
+          <ScalarProperty Name="MES_StaffCode" ColumnName="MES_StaffCode" />
+          <ScalarProperty Name="MES_StaffDep" ColumnName="MES_StaffDep" />
+          <ScalarProperty Name="MES_OrderNo" ColumnName="MES_OrderNo" />
+          <ScalarProperty Name="MES_Category" ColumnName="MES_Category" />
+          <ScalarProperty Name="MES_Problem" ColumnName="MES_Problem" />
+          <ScalarProperty Name="MES_Priority" ColumnName="MES_Priority" />
+          <ScalarProperty Name="MES_Error" ColumnName="MES_Error" />
+          <ScalarProperty Name="MES_Channel" ColumnName="MES_Channel" />
+          <ScalarProperty Name="MES_RecordNo" ColumnName="MES_RecordNo" />
+          <ScalarProperty Name="MES_File" ColumnName="MES_File" />
+          <ScalarProperty Name="MES_Line" ColumnName="MES_Line" />
+          <ScalarProperty Name="MES_InProgram" ColumnName="MES_InProgram" />
+          <ScalarProperty Name="MES_FuncCode" ColumnName="MES_FuncCode" />
+          <ScalarProperty Name="MES_Status" ColumnName="MES_Status" />
+          <ScalarProperty Name="MES_ProgramReq" ColumnName="MES_ProgramReq" />
+          <ScalarProperty Name="MES_IssueReg" ColumnName="MES_IssueReg" />
+          <ScalarProperty Name="MES_SamInv" ColumnName="MES_SamInv" />
+          <ScalarProperty Name="MES_WaitStatus" ColumnName="MES_WaitStatus" />
+          <ScalarProperty Name="MES_ForwardedTo" ColumnName="MES_ForwardedTo" />
+          <ScalarProperty Name="MES_ResolvedDateTime" ColumnName="MES_ResolvedDateTime" />
+          <ScalarProperty Name="MES_FollowUpDate" ColumnName="MES_FollowUpDate" />
+          <ScalarProperty Name="MES_Printed" ColumnName="MES_Printed" />
+          <ScalarProperty Name="MES_AcceptTrain" ColumnName="MES_AcceptTrain" />
+          <ScalarProperty Name="MES_InUseBy" ColumnName="MES_InUseBy" />
+          <ScalarProperty Name="MES_Department" ColumnName="MES_Department" />
+          <ScalarProperty Name="MES_Description" ColumnName="MES_Description" />
+          <ScalarProperty Name="MES_Response" ColumnName="MES_Response" />
+          <ScalarProperty Name="MES_Notes" ColumnName="MES_Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Problems">
+      <EntityTypeMapping TypeName="CallLoggingModel.Problem">
+        <MappingFragment StoreEntitySet="Problems">
+          <ScalarProperty Name="PRO_UID" ColumnName="PRO_UID" />
+          <ScalarProperty Name="PRO_CompanyId" ColumnName="PRO_CompanyId" />
+          <ScalarProperty Name="PRO_probNo" ColumnName="PRO_probNo" />
+          <ScalarProperty Name="PRO_category" ColumnName="PRO_category" />
+          <ScalarProperty Name="PRO_Problem" ColumnName="PRO_Problem" />
+          <ScalarProperty Name="PRO_DepID" ColumnName="PRO_DepID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

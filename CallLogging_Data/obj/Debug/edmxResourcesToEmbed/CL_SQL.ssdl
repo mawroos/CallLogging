@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CallLoggingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CUS_UID" />
+    </Key>
+    <Property Name="CUS_UID" Type="int" Nullable="false" />
+    <Property Name="CUS_CompanyId" Type="int" />
+    <Property Name="CUS_CustCode" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_Usergroup" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Name" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_LegalName" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_ActName" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_Contact" Type="varchar" MaxLength="35" />
+    <Property Name="CUS_PStreetNo" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_PSuburb" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_City" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_PPostCode" Type="int" />
+    <Property Name="CUS_DStreetNo" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_DSuburb" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_DCity" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_AreaCode" Type="int" />
+    <Property Name="CUS_Phone" Type="varchar" MaxLength="15" />
+    <Property Name="CUS_Fax" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Mobile" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Email" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_deptTotal" Type="tinyint" />
+    <Property Name="CUS_CustType" Type="int" />
+    <Property Name="CUS_ABDNo" Type="smallint" />
+    <Property Name="CUS_TLA" Type="varchar" MaxLength="5" />
+    <Property Name="CUS_Premier" Type="tinyint" />
+    <Property Name="CUS_References" Type="varchar" MaxLength="25" />
+    <Property Name="CUS_AccountType" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_ForceOrder" Type="tinyint" />
+    <Property Name="CUS_InActive" Type="tinyint" />
+    <Property Name="CUS_OnHold" Type="tinyint" />
+    <Property Name="CUS_CreditLimit" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="CUS_Discount" Type="int" />
+    <Property Name="CUS_Termcode" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_TradeType" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Bank" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Branch" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Payer" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Schematics" Type="varchar" MaxLength="150" />
+    <Property Name="CUS_OperatingSystem" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Software" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_UserLicences" Type="smallint" />
+    <Property Name="CUS_LastUpdate" Type="datetime" />
+    <Property Name="CUS_UpdateComment" Type="varchar" MaxLength="255" />
+    <Property Name="CUS_Package" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Version" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Release" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_SoldBy" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_Trainer" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_VPOS" Type="tinyint" />
+    <Property Name="CUS_MIDASPC" Type="tinyint" />
+    <Property Name="CUS_TFNZ" Type="tinyint" />
+    <Property Name="CUS_NewTimeClocking" Type="tinyint" />
+    <Property Name="CUS_Payroll" Type="tinyint" />
+    <Property Name="CUS_TimeClocking" Type="tinyint" />
+    <Property Name="CUS_BankLink" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_InstalledOn" Type="datetime" />
+    <Property Name="CUS_ExpiryDate" Type="datetime" />
+    <Property Name="CUS_LiveDate" Type="datetime" />
+    <Property Name="CUS_Industry" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_DUSupport" Type="tinyint" />
+    <Property Name="CUS_DUConnection" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_DUMachine" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_ModemPhoneNo" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_SUserName" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_SPassword" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_RemoteSoftware" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_SoftwareName" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_SoftwarePwd" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_IPAddress" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_SDomainName" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_DedicatedServer" Type="tinyint" />
+    <Property Name="CUS_SeeNotes" Type="tinyint" />
+    <Property Name="CUS_WarnMess1" Type="varchar" MaxLength="120" />
+    <Property Name="CUS_Warnmess2" Type="varchar" MaxLength="120" />
+    <Property Name="CUS_WarnMess3" Type="varchar" MaxLength="120" />
+    <Property Name="CUS_CreationDate" Type="datetime" />
+    <Property Name="CUS_Licence" Type="tinyint" />
+    <Property Name="CUS_TrainingComplete" Type="tinyint" />
+    <Property Name="CUS_Diagram" Type="tinyint" />
+    <Property Name="CUS_SignedOff" Type="tinyint" />
+    <Property Name="CUS_AccMan" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_SubFor" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_Ports1" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_Ports2" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_ServerIP" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_ServerName" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_TapeDrive" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_ScheduledDate" Type="datetime" />
+    <Property Name="CUS_TServerName" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_TIP" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_TDomain" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_TUserName" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_TPwd" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_SoftwareIP" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_DUUser" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_DUPasswrd" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_EmailInvoices" Type="varchar" MaxLength="1" />
+    <Property Name="CUS_NoStatement" Type="varchar" MaxLength="1" />
+    <Property Name="CUS_SoftUserName" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_SPorts1" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_SPorts2" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_TSPorts1" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_TSPorts2" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_RSPorts1" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_RSPorts2" Type="varchar" MaxLength="4" />
+    <Property Name="CUS_RemoteDomain" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_RemoteSDomain" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_TSOS" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_LocationFor" Type="tinyint" />
+    <Property Name="CUS_IsTermserver" Type="tinyint" />
+    <Property Name="CUS_Subnet" Type="varchar" MaxLength="15" />
+    <Property Name="CUS_CModem" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_Departments" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_Utilities" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_SignoffDate" Type="datetime" />
+    <Property Name="CUS_EmailStatements" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_StaticIP" Type="varchar" MaxLength="15" />
+    <Property Name="CUS_BackupSoftware1" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_BackupSoftware2" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_BackupMedia1" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_BackupMedia2" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_BackupMedia3" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_BackUpFreq" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_LastBackup" Type="datetime" />
+    <Property Name="CUS_LastBackupBy" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_LockItUser" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_LockItPwd" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_LockItKey" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_RefSite" Type="tinyint" />
+    <Property Name="CUS_DesktopSup" Type="tinyint" />
+    <Property Name="CUS_ExtendHrsSup" Type="tinyint" />
+    <Property Name="CUS_WeekendSup" Type="tinyint" />
+    <Property Name="CUS_AutoUpdate" Type="tinyint" />
+    <Property Name="CUS_PreviousSoftware" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_PSVersion" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_MtaNo" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_HasSecond" Type="tinyint" />
+    <Property Name="CUS_Exclude" Type="tinyint" />
+    <Property Name="CUS_InactiveReason" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_SoldTo" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_SoldToUID" Type="int" />
+    <Property Name="CUS_UpdateSentBy" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_Combine" Type="tinyint" />
+    <Property Name="CUS_InvEmail" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_Country" Type="varchar" MaxLength="1" />
+    <Property Name="CUS_PState" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_PCountry" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_NoCommission" Type="tinyint" />
+    <Property Name="CUS_LTNZLic" Type="tinyint" />
+    <Property Name="CUS_LTNZSuspend" Type="tinyint" />
+    <Property Name="CUS_GSTNo" Type="varchar" MaxLength="20" />
+    <Property Name="CUS_Imported" Type="tinyint" />
+    <Property Name="CUS_Accountant" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_UserLicPur" Type="smallint" />
+    <Property Name="CUS_OverDue" Type="tinyint" />
+    <Property Name="CUS_RentalServer" Type="tinyint" />
+    <Property Name="CUS_RentalPC" Type="tinyint" />
+    <Property Name="CUS_RentalPrinter" Type="tinyint" />
+    <Property Name="CUS_HostedServer" Type="tinyint" />
+    <Property Name="CUS_CitrixHosted" Type="tinyint" />
+    <Property Name="CUS_HostedMailServer" Type="tinyint" />
+    <Property Name="CUS_ManagedServices" Type="tinyint" />
+    <Property Name="CUS_ServerSupplied" Type="tinyint" />
+    <Property Name="CUS_PCSupplied" Type="tinyint" />
+    <Property Name="CUS_PrinterSupplied" Type="tinyint" />
+    <Property Name="CUS_Firewall" Type="tinyint" />
+    <Property Name="CUS_WarnigDate" Type="datetime" />
+    <Property Name="CUS_LastUpdateBy" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_LockItBackup" Type="tinyint" />
+    <Property Name="CUS_VirusPrSupplied" Type="tinyint" />
+    <Property Name="CUS_VirusPrdate" Type="datetime" />
+    <Property Name="CUS_VirusPrNo" Type="smallint" />
+    <Property Name="CUS_ServerDate" Type="datetime" />
+    <Property Name="CUS_ServerNos" Type="smallint" />
+    <Property Name="CUS_PCDate" Type="datetime" />
+    <Property Name="CUS_PCNos" Type="smallint" />
+    <Property Name="CUS_PrinterDate" Type="datetime" />
+    <Property Name="CUS_PrinterNos" Type="smallint" />
+    <Property Name="CUS_DState" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_DCountry" Type="varchar" MaxLength="50" />
+    <Property Name="CUS_RentalServerDate" Type="datetime" />
+    <Property Name="CUS_RentalServerNo" Type="smallint" />
+    <Property Name="CUS_RentalPCDate" Type="datetime" />
+    <Property Name="CUS_RentalPCNo" Type="smallint" />
+    <Property Name="CUS_RentalprinterDate" Type="datetime" />
+    <Property Name="CUS_CitrixHostingDate" Type="datetime" />
+    <Property Name="CUS_RentalPrinterNo" Type="smallint" />
+    <Property Name="CUS_CitrixHostingNumber" Type="smallint" />
+    <Property Name="CUS_FirewallDate" Type="datetime" />
+    <Property Name="CUS_FirewallNo" Type="smallint" />
+    <Property Name="CUS_DesktopSupDate" Type="datetime" />
+    <Property Name="CUS_DesktopSupNo" Type="smallint" />
+    <Property Name="CUS_ISPmailServer" Type="tinyint" />
+    <Property Name="CUS_ISPmailServerDate" Type="datetime" />
+    <Property Name="CUS_ISPmailServerNos" Type="smallint" />
+    <Property Name="CUS_RMVTno" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_SSNo" Type="varchar" MaxLength="10" />
+    <Property Name="CUS_SystemNotes" Type="text" />
+    <Property Name="CUS_Notes" Type="text" />
+    <Property Name="CUS_SuspendReason" Type="text" />
+    <Property Name="CUS_RemoteControlNotes" Type="text" />
+  </EntityType>
+  <EntityType Name="DeletedMessage">
+    <Key>
+      <PropertyRef Name="DelMes_UID" />
+    </Key>
+    <Property Name="DelMes_UID" Type="int" Nullable="false" />
+    <Property Name="DelMes_DESCRIPTION" Type="text" />
+    <Property Name="DelMes_RESPONSE" Type="text" />
+    <Property Name="DelMes_NOTES" Type="text" />
+    <Property Name="DelMes_CompanyId" Type="int" />
+    <Property Name="DelMes_MESSNO" Type="int" />
+    <Property Name="DelMes_DeletedBY" Type="varchar" MaxLength="10" />
+    <Property Name="DelMes_DateDeleted" Type="datetime" />
+    <Property Name="DelMes_SYSTIMEREFERENCE" Type="int" />
+    <Property Name="DelMes_FORWARDED" Type="varchar" MaxLength="2" />
+    <Property Name="DelMes_URGENT" Type="varchar" MaxLength="2" />
+    <Property Name="DelMes_OPENED" Type="tinyint" />
+    <Property Name="DELMES_MessDateTime" Type="datetime" />
+    <Property Name="DelMes_CUSTCODE" Type="varchar" MaxLength="10" />
+    <Property Name="DELMES_CustomerUID" Type="int" />
+    <Property Name="DelMes_CONTACT" Type="varchar" MaxLength="35" />
+    <Property Name="DelMes_PHONE" Type="varchar" MaxLength="15" />
+    <Property Name="DelMes_TAKENBY" Type="varchar" MaxLength="10" />
+    <Property Name="DelMes_STAFFCODE" Type="varchar" MaxLength="10" />
+    <Property Name="DelMes_ORDERNO" Type="varchar" MaxLength="10" />
+    <Property Name="DelMes_CATEGORY" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_PROBLEM" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_PRIORITY" Type="smallint" />
+    <Property Name="DelMes_ERROR" Type="varchar" MaxLength="40" />
+    <Property Name="DelMes_CHANNEL" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_RECORDNO" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_FILE" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_LINE" Type="int" />
+    <Property Name="DelMes_INPROGRAM" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_FUNCCODE" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_STATUS" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_FORWARDEDTO" Type="varchar" MaxLength="10" />
+    <Property Name="DelMes_RESOLVEDON" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_RESOLVEDAT" Type="varchar" MaxLength="20" />
+    <Property Name="DelMes_FOLLOWUPDATE" Type="datetime" />
+    <Property Name="DelMes_PRINTED" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="DEP_UID" />
+    </Key>
+    <Property Name="DEP_UID" Type="int" Nullable="false" />
+    <Property Name="DEP_CompanyId" Type="int" />
+    <Property Name="DEP_DEPID" Type="int" />
+    <Property Name="DEP_DepDesc" Type="varchar" MaxLength="20" />
+    <Property Name="DEP_Secondary" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MES_UID" />
+    </Key>
+    <Property Name="MES_UID" Type="int" Nullable="false" />
+    <Property Name="MES_CompanyId" Type="int" />
+    <Property Name="MES_MessNo" Type="int" />
+    <Property Name="MES_SystimeReference" Type="int" />
+    <Property Name="MES_Forwarded" Type="varchar" MaxLength="2" />
+    <Property Name="MES_Urgent" Type="varchar" MaxLength="2" />
+    <Property Name="MES_Opened" Type="tinyint" />
+    <Property Name="MES_MesDateTime" Type="datetime" />
+    <Property Name="MES_CustCode" Type="varchar" MaxLength="10" />
+    <Property Name="MES_CustomerUID" Type="int" />
+    <Property Name="MES_Contact" Type="varchar" MaxLength="35" />
+    <Property Name="MES_Phone" Type="varchar" MaxLength="15" />
+    <Property Name="MES_TakenBy" Type="varchar" MaxLength="10" />
+    <Property Name="MES_StaffCode" Type="varchar" MaxLength="10" />
+    <Property Name="MES_StaffDep" Type="varchar" MaxLength="20" />
+    <Property Name="MES_OrderNo" Type="varchar" MaxLength="10" />
+    <Property Name="MES_Category" Type="varchar" MaxLength="20" />
+    <Property Name="MES_Problem" Type="varchar" MaxLength="20" />
+    <Property Name="MES_Priority" Type="smallint" />
+    <Property Name="MES_Error" Type="varchar" MaxLength="40" />
+    <Property Name="MES_Channel" Type="varchar" MaxLength="20" />
+    <Property Name="MES_RecordNo" Type="varchar" MaxLength="20" />
+    <Property Name="MES_File" Type="varchar" MaxLength="20" />
+    <Property Name="MES_Line" Type="int" />
+    <Property Name="MES_InProgram" Type="varchar" MaxLength="20" />
+    <Property Name="MES_FuncCode" Type="varchar" MaxLength="20" />
+    <Property Name="MES_Status" Type="varchar" MaxLength="20" />
+    <Property Name="MES_ProgramReq" Type="tinyint" />
+    <Property Name="MES_IssueReg" Type="tinyint" />
+    <Property Name="MES_SamInv" Type="tinyint" />
+    <Property Name="MES_WaitStatus" Type="varchar" MaxLength="15" />
+    <Property Name="MES_ForwardedTo" Type="varchar" MaxLength="10" />
+    <Property Name="MES_ResolvedDateTime" Type="datetime" />
+    <Property Name="MES_FollowUpDate" Type="datetime" />
+    <Property Name="MES_Printed" Type="tinyint" />
+    <Property Name="MES_AcceptTrain" Type="tinyint" />
+    <Property Name="MES_InUseBy" Type="varchar" MaxLength="10" />
+    <Property Name="MES_Department" Type="varchar" MaxLength="20" />
+    <Property Name="MES_Description" Type="text" />
+    <Property Name="MES_Response" Type="text" />
+    <Property Name="MES_Notes" Type="text" />
+  </EntityType>
+  <EntityType Name="Problems">
+    <Key>
+      <PropertyRef Name="PRO_UID" />
+    </Key>
+    <Property Name="PRO_UID" Type="int" Nullable="false" />
+    <Property Name="PRO_CompanyId" Type="int" />
+    <Property Name="PRO_probNo" Type="int" />
+    <Property Name="PRO_category" Type="varchar" MaxLength="20" />
+    <Property Name="PRO_Problem" Type="varchar" MaxLength="20" />
+    <Property Name="PRO_DepID" Type="int" />
+  </EntityType>
+  <EntityContainer Name="CallLoggingModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DeletedMessage" EntityType="Self.DeletedMessage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Problems" EntityType="Self.Problems" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,28 @@
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\CallLogging_Common.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\CallLogging_Common.pdb
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.Mvc.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\CallLogging_Common.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\CallLogging_Common.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.Mvc.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.csprojResolveAssemblyReference.cache
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\bin\Debug\CallLogging_Common.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\bin\Debug\CallLogging_Common.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.Mvc.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\bin\Debug\PagedList.Mvc.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.csprojResolveAssemblyReference.cache
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.csproj.CoreCompileInputs.cache
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Common\obj\Debug\CallLogging_Common.pdb

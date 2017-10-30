@@ -1,0 +1,364 @@
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\ApplicationInsights.config
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\csc.exe
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\vbc.exe
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging.dll.config
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging.pdb
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Antlr3.Runtime.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.SqlServer.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Web.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Newtonsoft.Json.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Owin.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Helpers.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Mvc.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Optimization.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Razor.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\WebGrease.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Web.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Helpers.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Mvc.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Optimization.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Razor.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Antlr3.Runtime.pdb
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Newtonsoft.Json.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.SqlServer.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.dll
+c:\users\mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Common.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Data.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Common.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Data.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.Mvc.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\ApplicationInsights.config
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\csc.exe
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\System.Collections.Immutable.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\System.Reflection.Metadata.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\vbc.exe
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe.config
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging.dll.config
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Antlr3.Runtime.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Common.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Data.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.SqlServer.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Web.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Web.Infrastructure.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Newtonsoft.Json.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Owin.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.Mvc.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Helpers.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Mvc.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Optimization.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Razor.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\WebGrease.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Common.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\CallLogging_Data.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Web.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\PagedList.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Helpers.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Optimization.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.Razor.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Antlr3.Runtime.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Newtonsoft.Json.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\EntityFramework.SqlServer.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.csprojResolveAssemblyReference.cache
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\ApplicationInsights.config
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\csc.exe
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.CSharp.Core.targets
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\System.Collections.Immutable.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\System.Reflection.Metadata.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\vbc.exe
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe.config
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging.dll.config
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Antlr3.Runtime.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging_Common.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging_Data.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\EntityFramework.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\EntityFramework.SqlServer.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Agent.Intercept.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.PerfCounterCollector.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Web.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Web.Infrastructure.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Newtonsoft.Json.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Owin.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\PagedList.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\PagedList.Mvc.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Helpers.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Mvc.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Optimization.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Razor.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\WebGrease.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging_Common.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging_Data.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\CallLogging_Data.dll.config
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.Web.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\PagedList.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\PagedList.Mvc.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Helpers.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Mvc.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Optimization.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.Razor.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Antlr3.Runtime.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Newtonsoft.Json.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\EntityFramework.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\EntityFramework.SqlServer.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.csprojResolveAssemblyReference.cache
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.csproj.CoreCompileInputs.cache
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging\obj\Debug\CallLogging.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\ApplicationInsights.config
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\csc.exe
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\vbc.exe
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging.dll.config
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Antlr3.Runtime.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging_Common.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging_Data.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\EntityFramework.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\EntityFramework.SqlServer.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.Web.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Newtonsoft.Json.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Owin.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\PagedList.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\PagedList.Mvc.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Helpers.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Mvc.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Optimization.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Razor.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.WebPages.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\WebGrease.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging_Common.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging_Data.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\CallLogging_Data.dll.config
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.Web.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\PagedList.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\PagedList.Mvc.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Helpers.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Mvc.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Optimization.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.Razor.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.WebPages.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\System.Web.WebPages.Razor.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Antlr3.Runtime.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Newtonsoft.Json.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\EntityFramework.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\EntityFramework.SqlServer.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\obj\Debug\CallLogging.csprojResolveAssemblyReference.cache
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\obj\Debug\CallLogging.csproj.CoreCompileInputs.cache
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\obj\Debug\CallLogging.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging\obj\Debug\CallLogging.pdb

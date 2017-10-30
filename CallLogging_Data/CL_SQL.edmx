@@ -1,0 +1,1002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CallLoggingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="CUS_UID" />
+          </Key>
+          <Property Name="CUS_UID" Type="int" Nullable="false" />
+          <Property Name="CUS_CompanyId" Type="int" />
+          <Property Name="CUS_CustCode" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_Usergroup" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Name" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_LegalName" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_ActName" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_Contact" Type="varchar" MaxLength="35" />
+          <Property Name="CUS_PStreetNo" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_PSuburb" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_City" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_PPostCode" Type="int" />
+          <Property Name="CUS_DStreetNo" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_DSuburb" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_DCity" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_AreaCode" Type="int" />
+          <Property Name="CUS_Phone" Type="varchar" MaxLength="15" />
+          <Property Name="CUS_Fax" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Mobile" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Email" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_deptTotal" Type="tinyint" />
+          <Property Name="CUS_CustType" Type="int" />
+          <Property Name="CUS_ABDNo" Type="smallint" />
+          <Property Name="CUS_TLA" Type="varchar" MaxLength="5" />
+          <Property Name="CUS_Premier" Type="tinyint" />
+          <Property Name="CUS_References" Type="varchar" MaxLength="25" />
+          <Property Name="CUS_AccountType" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_ForceOrder" Type="tinyint" />
+          <Property Name="CUS_InActive" Type="tinyint" />
+          <Property Name="CUS_OnHold" Type="tinyint" />
+          <Property Name="CUS_CreditLimit" Type="decimal" Precision="5" Scale="2" />
+          <Property Name="CUS_Discount" Type="int" />
+          <Property Name="CUS_Termcode" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_TradeType" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Bank" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Branch" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Payer" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Schematics" Type="varchar" MaxLength="150" />
+          <Property Name="CUS_OperatingSystem" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Software" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_UserLicences" Type="smallint" />
+          <Property Name="CUS_LastUpdate" Type="datetime" />
+          <Property Name="CUS_UpdateComment" Type="varchar" MaxLength="255" />
+          <Property Name="CUS_Package" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Version" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Release" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_SoldBy" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_Trainer" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_VPOS" Type="tinyint" />
+          <Property Name="CUS_MIDASPC" Type="tinyint" />
+          <Property Name="CUS_TFNZ" Type="tinyint" />
+          <Property Name="CUS_NewTimeClocking" Type="tinyint" />
+          <Property Name="CUS_Payroll" Type="tinyint" />
+          <Property Name="CUS_TimeClocking" Type="tinyint" />
+          <Property Name="CUS_BankLink" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_InstalledOn" Type="datetime" />
+          <Property Name="CUS_ExpiryDate" Type="datetime" />
+          <Property Name="CUS_LiveDate" Type="datetime" />
+          <Property Name="CUS_Industry" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_DUSupport" Type="tinyint" />
+          <Property Name="CUS_DUConnection" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_DUMachine" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_ModemPhoneNo" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_SUserName" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_SPassword" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_RemoteSoftware" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_SoftwareName" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_SoftwarePwd" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_IPAddress" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_SDomainName" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_DedicatedServer" Type="tinyint" />
+          <Property Name="CUS_SeeNotes" Type="tinyint" />
+          <Property Name="CUS_WarnMess1" Type="varchar" MaxLength="120" />
+          <Property Name="CUS_Warnmess2" Type="varchar" MaxLength="120" />
+          <Property Name="CUS_WarnMess3" Type="varchar" MaxLength="120" />
+          <Property Name="CUS_CreationDate" Type="datetime" />
+          <Property Name="CUS_Licence" Type="tinyint" />
+          <Property Name="CUS_TrainingComplete" Type="tinyint" />
+          <Property Name="CUS_Diagram" Type="tinyint" />
+          <Property Name="CUS_SignedOff" Type="tinyint" />
+          <Property Name="CUS_AccMan" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_SubFor" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_Ports1" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_Ports2" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_ServerIP" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_ServerName" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_TapeDrive" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_ScheduledDate" Type="datetime" />
+          <Property Name="CUS_TServerName" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_TIP" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_TDomain" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_TUserName" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_TPwd" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_SoftwareIP" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_DUUser" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_DUPasswrd" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_EmailInvoices" Type="varchar" MaxLength="1" />
+          <Property Name="CUS_NoStatement" Type="varchar" MaxLength="1" />
+          <Property Name="CUS_SoftUserName" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_SPorts1" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_SPorts2" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_TSPorts1" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_TSPorts2" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_RSPorts1" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_RSPorts2" Type="varchar" MaxLength="4" />
+          <Property Name="CUS_RemoteDomain" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_RemoteSDomain" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_TSOS" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_LocationFor" Type="tinyint" />
+          <Property Name="CUS_IsTermserver" Type="tinyint" />
+          <Property Name="CUS_Subnet" Type="varchar" MaxLength="15" />
+          <Property Name="CUS_CModem" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_Departments" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_Utilities" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_SignoffDate" Type="datetime" />
+          <Property Name="CUS_EmailStatements" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_StaticIP" Type="varchar" MaxLength="15" />
+          <Property Name="CUS_BackupSoftware1" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_BackupSoftware2" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_BackupMedia1" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_BackupMedia2" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_BackupMedia3" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_BackUpFreq" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_LastBackup" Type="datetime" />
+          <Property Name="CUS_LastBackupBy" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_LockItUser" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_LockItPwd" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_LockItKey" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_RefSite" Type="tinyint" />
+          <Property Name="CUS_DesktopSup" Type="tinyint" />
+          <Property Name="CUS_ExtendHrsSup" Type="tinyint" />
+          <Property Name="CUS_WeekendSup" Type="tinyint" />
+          <Property Name="CUS_AutoUpdate" Type="tinyint" />
+          <Property Name="CUS_PreviousSoftware" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_PSVersion" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_MtaNo" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_HasSecond" Type="tinyint" />
+          <Property Name="CUS_Exclude" Type="tinyint" />
+          <Property Name="CUS_InactiveReason" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_SoldTo" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_SoldToUID" Type="int" />
+          <Property Name="CUS_UpdateSentBy" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_Combine" Type="tinyint" />
+          <Property Name="CUS_InvEmail" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_Country" Type="varchar" MaxLength="1" />
+          <Property Name="CUS_PState" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_PCountry" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_NoCommission" Type="tinyint" />
+          <Property Name="CUS_LTNZLic" Type="tinyint" />
+          <Property Name="CUS_LTNZSuspend" Type="tinyint" />
+          <Property Name="CUS_GSTNo" Type="varchar" MaxLength="20" />
+          <Property Name="CUS_Imported" Type="tinyint" />
+          <Property Name="CUS_Accountant" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_UserLicPur" Type="smallint" />
+          <Property Name="CUS_OverDue" Type="tinyint" />
+          <Property Name="CUS_RentalServer" Type="tinyint" />
+          <Property Name="CUS_RentalPC" Type="tinyint" />
+          <Property Name="CUS_RentalPrinter" Type="tinyint" />
+          <Property Name="CUS_HostedServer" Type="tinyint" />
+          <Property Name="CUS_CitrixHosted" Type="tinyint" />
+          <Property Name="CUS_HostedMailServer" Type="tinyint" />
+          <Property Name="CUS_ManagedServices" Type="tinyint" />
+          <Property Name="CUS_ServerSupplied" Type="tinyint" />
+          <Property Name="CUS_PCSupplied" Type="tinyint" />
+          <Property Name="CUS_PrinterSupplied" Type="tinyint" />
+          <Property Name="CUS_Firewall" Type="tinyint" />
+          <Property Name="CUS_WarnigDate" Type="datetime" />
+          <Property Name="CUS_LastUpdateBy" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_LockItBackup" Type="tinyint" />
+          <Property Name="CUS_VirusPrSupplied" Type="tinyint" />
+          <Property Name="CUS_VirusPrdate" Type="datetime" />
+          <Property Name="CUS_VirusPrNo" Type="smallint" />
+          <Property Name="CUS_ServerDate" Type="datetime" />
+          <Property Name="CUS_ServerNos" Type="smallint" />
+          <Property Name="CUS_PCDate" Type="datetime" />
+          <Property Name="CUS_PCNos" Type="smallint" />
+          <Property Name="CUS_PrinterDate" Type="datetime" />
+          <Property Name="CUS_PrinterNos" Type="smallint" />
+          <Property Name="CUS_DState" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_DCountry" Type="varchar" MaxLength="50" />
+          <Property Name="CUS_RentalServerDate" Type="datetime" />
+          <Property Name="CUS_RentalServerNo" Type="smallint" />
+          <Property Name="CUS_RentalPCDate" Type="datetime" />
+          <Property Name="CUS_RentalPCNo" Type="smallint" />
+          <Property Name="CUS_RentalprinterDate" Type="datetime" />
+          <Property Name="CUS_CitrixHostingDate" Type="datetime" />
+          <Property Name="CUS_RentalPrinterNo" Type="smallint" />
+          <Property Name="CUS_CitrixHostingNumber" Type="smallint" />
+          <Property Name="CUS_FirewallDate" Type="datetime" />
+          <Property Name="CUS_FirewallNo" Type="smallint" />
+          <Property Name="CUS_DesktopSupDate" Type="datetime" />
+          <Property Name="CUS_DesktopSupNo" Type="smallint" />
+          <Property Name="CUS_ISPmailServer" Type="tinyint" />
+          <Property Name="CUS_ISPmailServerDate" Type="datetime" />
+          <Property Name="CUS_ISPmailServerNos" Type="smallint" />
+          <Property Name="CUS_RMVTno" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_SSNo" Type="varchar" MaxLength="10" />
+          <Property Name="CUS_SystemNotes" Type="text" />
+          <Property Name="CUS_Notes" Type="text" />
+          <Property Name="CUS_SuspendReason" Type="text" />
+          <Property Name="CUS_RemoteControlNotes" Type="text" />
+        </EntityType>
+        <EntityType Name="DeletedMessage">
+          <Key>
+            <PropertyRef Name="DelMes_UID" />
+          </Key>
+          <Property Name="DelMes_UID" Type="int" Nullable="false" />
+          <Property Name="DelMes_DESCRIPTION" Type="text" />
+          <Property Name="DelMes_RESPONSE" Type="text" />
+          <Property Name="DelMes_NOTES" Type="text" />
+          <Property Name="DelMes_CompanyId" Type="int" />
+          <Property Name="DelMes_MESSNO" Type="int" />
+          <Property Name="DelMes_DeletedBY" Type="varchar" MaxLength="10" />
+          <Property Name="DelMes_DateDeleted" Type="datetime" />
+          <Property Name="DelMes_SYSTIMEREFERENCE" Type="int" />
+          <Property Name="DelMes_FORWARDED" Type="varchar" MaxLength="2" />
+          <Property Name="DelMes_URGENT" Type="varchar" MaxLength="2" />
+          <Property Name="DelMes_OPENED" Type="tinyint" />
+          <Property Name="DELMES_MessDateTime" Type="datetime" />
+          <Property Name="DelMes_CUSTCODE" Type="varchar" MaxLength="10" />
+          <Property Name="DELMES_CustomerUID" Type="int" />
+          <Property Name="DelMes_CONTACT" Type="varchar" MaxLength="35" />
+          <Property Name="DelMes_PHONE" Type="varchar" MaxLength="15" />
+          <Property Name="DelMes_TAKENBY" Type="varchar" MaxLength="10" />
+          <Property Name="DelMes_STAFFCODE" Type="varchar" MaxLength="10" />
+          <Property Name="DelMes_ORDERNO" Type="varchar" MaxLength="10" />
+          <Property Name="DelMes_CATEGORY" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_PROBLEM" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_PRIORITY" Type="smallint" />
+          <Property Name="DelMes_ERROR" Type="varchar" MaxLength="40" />
+          <Property Name="DelMes_CHANNEL" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_RECORDNO" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_FILE" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_LINE" Type="int" />
+          <Property Name="DelMes_INPROGRAM" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_FUNCCODE" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_STATUS" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_FORWARDEDTO" Type="varchar" MaxLength="10" />
+          <Property Name="DelMes_RESOLVEDON" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_RESOLVEDAT" Type="varchar" MaxLength="20" />
+          <Property Name="DelMes_FOLLOWUPDATE" Type="datetime" />
+          <Property Name="DelMes_PRINTED" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="Departments">
+          <Key>
+            <PropertyRef Name="DEP_UID" />
+          </Key>
+          <Property Name="DEP_UID" Type="int" Nullable="false" />
+          <Property Name="DEP_CompanyId" Type="int" />
+          <Property Name="DEP_DEPID" Type="int" />
+          <Property Name="DEP_DepDesc" Type="varchar" MaxLength="20" />
+          <Property Name="DEP_Secondary" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="MES_UID" />
+          </Key>
+          <Property Name="MES_UID" Type="int" Nullable="false" />
+          <Property Name="MES_CompanyId" Type="int" />
+          <Property Name="MES_MessNo" Type="int" />
+          <Property Name="MES_SystimeReference" Type="int" />
+          <Property Name="MES_Forwarded" Type="varchar" MaxLength="2" />
+          <Property Name="MES_Urgent" Type="varchar" MaxLength="2" />
+          <Property Name="MES_Opened" Type="tinyint" />
+          <Property Name="MES_MesDateTime" Type="datetime" />
+          <Property Name="MES_CustCode" Type="varchar" MaxLength="10" />
+          <Property Name="MES_CustomerUID" Type="int" />
+          <Property Name="MES_Contact" Type="varchar" MaxLength="35" />
+          <Property Name="MES_Phone" Type="varchar" MaxLength="15" />
+          <Property Name="MES_TakenBy" Type="varchar" MaxLength="10" />
+          <Property Name="MES_StaffCode" Type="varchar" MaxLength="10" />
+          <Property Name="MES_StaffDep" Type="varchar" MaxLength="20" />
+          <Property Name="MES_OrderNo" Type="varchar" MaxLength="10" />
+          <Property Name="MES_Category" Type="varchar" MaxLength="20" />
+          <Property Name="MES_Problem" Type="varchar" MaxLength="20" />
+          <Property Name="MES_Priority" Type="smallint" />
+          <Property Name="MES_Error" Type="varchar" MaxLength="40" />
+          <Property Name="MES_Channel" Type="varchar" MaxLength="20" />
+          <Property Name="MES_RecordNo" Type="varchar" MaxLength="20" />
+          <Property Name="MES_File" Type="varchar" MaxLength="20" />
+          <Property Name="MES_Line" Type="int" />
+          <Property Name="MES_InProgram" Type="varchar" MaxLength="20" />
+          <Property Name="MES_FuncCode" Type="varchar" MaxLength="20" />
+          <Property Name="MES_Status" Type="varchar" MaxLength="20" />
+          <Property Name="MES_ProgramReq" Type="tinyint" />
+          <Property Name="MES_IssueReg" Type="tinyint" />
+          <Property Name="MES_SamInv" Type="tinyint" />
+          <Property Name="MES_WaitStatus" Type="varchar" MaxLength="15" />
+          <Property Name="MES_ForwardedTo" Type="varchar" MaxLength="10" />
+          <Property Name="MES_ResolvedDateTime" Type="datetime" />
+          <Property Name="MES_FollowUpDate" Type="datetime" />
+          <Property Name="MES_Printed" Type="tinyint" />
+          <Property Name="MES_AcceptTrain" Type="tinyint" />
+          <Property Name="MES_InUseBy" Type="varchar" MaxLength="10" />
+          <Property Name="MES_Department" Type="varchar" MaxLength="20" />
+          <Property Name="MES_Description" Type="text" />
+          <Property Name="MES_Response" Type="text" />
+          <Property Name="MES_Notes" Type="text" />
+        </EntityType>
+        <EntityType Name="Problems">
+          <Key>
+            <PropertyRef Name="PRO_UID" />
+          </Key>
+          <Property Name="PRO_UID" Type="int" Nullable="false" />
+          <Property Name="PRO_CompanyId" Type="int" />
+          <Property Name="PRO_probNo" Type="int" />
+          <Property Name="PRO_category" Type="varchar" MaxLength="20" />
+          <Property Name="PRO_Problem" Type="varchar" MaxLength="20" />
+          <Property Name="PRO_DepID" Type="int" />
+        </EntityType>
+        <EntityContainer Name="CallLoggingModelStoreContainer">
+          <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DeletedMessage" EntityType="Self.DeletedMessage" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Problems" EntityType="Self.Problems" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CallLoggingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="CUS_UID" />
+          </Key>
+          <Property Name="CUS_UID" Type="Int32" Nullable="false" />
+          <Property Name="CUS_CompanyId" Type="Int32" />
+          <Property Name="CUS_CustCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Usergroup" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LegalName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_ActName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Contact" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_PStreetNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_PSuburb" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_City" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_PPostCode" Type="Int32" />
+          <Property Name="CUS_DStreetNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DSuburb" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DCity" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_AreaCode" Type="Int32" />
+          <Property Name="CUS_Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_deptTotal" Type="Byte" />
+          <Property Name="CUS_CustType" Type="Int32" />
+          <Property Name="CUS_ABDNo" Type="Int16" />
+          <Property Name="CUS_TLA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Premier" Type="Byte" />
+          <Property Name="CUS_References" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_AccountType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_ForceOrder" Type="Byte" />
+          <Property Name="CUS_InActive" Type="Byte" />
+          <Property Name="CUS_OnHold" Type="Byte" />
+          <Property Name="CUS_CreditLimit" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="CUS_Discount" Type="Int32" />
+          <Property Name="CUS_Termcode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TradeType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Bank" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Branch" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Payer" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Schematics" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_OperatingSystem" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Software" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_UserLicences" Type="Int16" />
+          <Property Name="CUS_LastUpdate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_UpdateComment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Package" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Version" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Release" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoldBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Trainer" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_VPOS" Type="Byte" />
+          <Property Name="CUS_MIDASPC" Type="Byte" />
+          <Property Name="CUS_TFNZ" Type="Byte" />
+          <Property Name="CUS_NewTimeClocking" Type="Byte" />
+          <Property Name="CUS_Payroll" Type="Byte" />
+          <Property Name="CUS_TimeClocking" Type="Byte" />
+          <Property Name="CUS_BankLink" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_InstalledOn" Type="DateTime" Precision="3" />
+          <Property Name="CUS_ExpiryDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_LiveDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_Industry" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DUSupport" Type="Byte" />
+          <Property Name="CUS_DUConnection" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DUMachine" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_ModemPhoneNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RemoteSoftware" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoftwareName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoftwarePwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SDomainName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DedicatedServer" Type="Byte" />
+          <Property Name="CUS_SeeNotes" Type="Byte" />
+          <Property Name="CUS_WarnMess1" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Warnmess2" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_WarnMess3" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_CreationDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_Licence" Type="Byte" />
+          <Property Name="CUS_TrainingComplete" Type="Byte" />
+          <Property Name="CUS_Diagram" Type="Byte" />
+          <Property Name="CUS_SignedOff" Type="Byte" />
+          <Property Name="CUS_AccMan" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SubFor" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Ports1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Ports2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_ServerIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_ServerName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TapeDrive" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_ScheduledDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_TServerName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TDomain" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TPwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoftwareIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DUUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DUPasswrd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_EmailInvoices" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_NoStatement" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoftUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SPorts1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SPorts2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TSPorts1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TSPorts2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RSPorts1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RSPorts2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RemoteDomain" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RemoteSDomain" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_TSOS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LocationFor" Type="Byte" />
+          <Property Name="CUS_IsTermserver" Type="Byte" />
+          <Property Name="CUS_Subnet" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_CModem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Departments" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Utilities" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SignoffDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_EmailStatements" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_StaticIP" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_BackupSoftware1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_BackupSoftware2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_BackupMedia1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_BackupMedia2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_BackupMedia3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_BackUpFreq" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LastBackup" Type="DateTime" Precision="3" />
+          <Property Name="CUS_LastBackupBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LockItUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LockItPwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LockItKey" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RefSite" Type="Byte" />
+          <Property Name="CUS_DesktopSup" Type="Byte" />
+          <Property Name="CUS_ExtendHrsSup" Type="Byte" />
+          <Property Name="CUS_WeekendSup" Type="Byte" />
+          <Property Name="CUS_AutoUpdate" Type="Byte" />
+          <Property Name="CUS_PreviousSoftware" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_PSVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_MtaNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_HasSecond" Type="Byte" />
+          <Property Name="CUS_Exclude" Type="Byte" />
+          <Property Name="CUS_InactiveReason" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoldTo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SoldToUID" Type="Int32" />
+          <Property Name="CUS_UpdateSentBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Combine" Type="Byte" />
+          <Property Name="CUS_InvEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Country" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_PState" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_PCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_NoCommission" Type="Byte" />
+          <Property Name="CUS_LTNZLic" Type="Byte" />
+          <Property Name="CUS_LTNZSuspend" Type="Byte" />
+          <Property Name="CUS_GSTNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Imported" Type="Byte" />
+          <Property Name="CUS_Accountant" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_UserLicPur" Type="Int16" />
+          <Property Name="CUS_OverDue" Type="Byte" />
+          <Property Name="CUS_RentalServer" Type="Byte" />
+          <Property Name="CUS_RentalPC" Type="Byte" />
+          <Property Name="CUS_RentalPrinter" Type="Byte" />
+          <Property Name="CUS_HostedServer" Type="Byte" />
+          <Property Name="CUS_CitrixHosted" Type="Byte" />
+          <Property Name="CUS_HostedMailServer" Type="Byte" />
+          <Property Name="CUS_ManagedServices" Type="Byte" />
+          <Property Name="CUS_ServerSupplied" Type="Byte" />
+          <Property Name="CUS_PCSupplied" Type="Byte" />
+          <Property Name="CUS_PrinterSupplied" Type="Byte" />
+          <Property Name="CUS_Firewall" Type="Byte" />
+          <Property Name="CUS_WarnigDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_LastUpdateBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_LockItBackup" Type="Byte" />
+          <Property Name="CUS_VirusPrSupplied" Type="Byte" />
+          <Property Name="CUS_VirusPrdate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_VirusPrNo" Type="Int16" />
+          <Property Name="CUS_ServerDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_ServerNos" Type="Int16" />
+          <Property Name="CUS_PCDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_PCNos" Type="Int16" />
+          <Property Name="CUS_PrinterDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_PrinterNos" Type="Int16" />
+          <Property Name="CUS_DState" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_DCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RentalServerDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_RentalServerNo" Type="Int16" />
+          <Property Name="CUS_RentalPCDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_RentalPCNo" Type="Int16" />
+          <Property Name="CUS_RentalprinterDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_CitrixHostingDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_RentalPrinterNo" Type="Int16" />
+          <Property Name="CUS_CitrixHostingNumber" Type="Int16" />
+          <Property Name="CUS_FirewallDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_FirewallNo" Type="Int16" />
+          <Property Name="CUS_DesktopSupDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_DesktopSupNo" Type="Int16" />
+          <Property Name="CUS_ISPmailServer" Type="Byte" />
+          <Property Name="CUS_ISPmailServerDate" Type="DateTime" Precision="3" />
+          <Property Name="CUS_ISPmailServerNos" Type="Int16" />
+          <Property Name="CUS_RMVTno" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SSNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SystemNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_SuspendReason" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="CUS_RemoteControlNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="DeletedMessage">
+          <Key>
+            <PropertyRef Name="DelMes_UID" />
+          </Key>
+          <Property Name="DelMes_UID" Type="Int32" Nullable="false" />
+          <Property Name="DelMes_DESCRIPTION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_RESPONSE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_NOTES" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_CompanyId" Type="Int32" />
+          <Property Name="DelMes_MESSNO" Type="Int32" />
+          <Property Name="DelMes_DeletedBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_DateDeleted" Type="DateTime" Precision="3" />
+          <Property Name="DelMes_SYSTIMEREFERENCE" Type="Int32" />
+          <Property Name="DelMes_FORWARDED" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_URGENT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_OPENED" Type="Byte" />
+          <Property Name="DELMES_MessDateTime" Type="DateTime" Precision="3" />
+          <Property Name="DelMes_CUSTCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DELMES_CustomerUID" Type="Int32" />
+          <Property Name="DelMes_CONTACT" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_PHONE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_TAKENBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_STAFFCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_ORDERNO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_CATEGORY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_PROBLEM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_PRIORITY" Type="Int16" />
+          <Property Name="DelMes_ERROR" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_CHANNEL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_RECORDNO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_FILE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_LINE" Type="Int32" />
+          <Property Name="DelMes_INPROGRAM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_FUNCCODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_STATUS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_FORWARDEDTO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_RESOLVEDON" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_RESOLVEDAT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DelMes_FOLLOWUPDATE" Type="DateTime" Precision="3" />
+          <Property Name="DelMes_PRINTED" Type="Byte" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DEP_UID" />
+          </Key>
+          <Property Name="DEP_UID" Type="Int32" Nullable="false" />
+          <Property Name="DEP_CompanyId" Type="Int32" />
+          <Property Name="DEP_DEPID" Type="Int32" />
+          <Property Name="DEP_DepDesc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DEP_Secondary" Type="Byte" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="MES_UID" />
+          </Key>
+          <Property Name="MES_UID" Type="Int32" Nullable="false" />
+          <Property Name="MES_CompanyId" Type="Int32" />
+          <Property Name="MES_MessNo" Type="Int32" />
+          <Property Name="MES_SystimeReference" Type="Int32" />
+          <Property Name="MES_Forwarded" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Urgent" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Opened" Type="Byte" />
+          <Property Name="MES_MesDateTime" Type="DateTime" Precision="3" />
+          <Property Name="MES_CustCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MES_CustomerUID" Type="Int32" />
+          <Property Name="MES_Contact" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="MES_TakenBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MES_StaffCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MES_StaffDep" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_OrderNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Category" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Problem" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Priority" Type="Int16" />
+          <Property Name="MES_Error" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Channel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_RecordNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_File" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Line" Type="Int32" />
+          <Property Name="MES_InProgram" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_FuncCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_ProgramReq" Type="Byte" />
+          <Property Name="MES_IssueReg" Type="Byte" />
+          <Property Name="MES_SamInv" Type="Byte" />
+          <Property Name="MES_WaitStatus" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="MES_ForwardedTo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MES_ResolvedDateTime" Type="DateTime" Precision="3" />
+          <Property Name="MES_FollowUpDate" Type="DateTime" Precision="3" />
+          <Property Name="MES_Printed" Type="Byte" />
+          <Property Name="MES_AcceptTrain" Type="Byte" />
+          <Property Name="MES_InUseBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Department" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Response" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="MES_Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Problem">
+          <Key>
+            <PropertyRef Name="PRO_UID" />
+          </Key>
+          <Property Name="PRO_UID" Type="Int32" Nullable="false" />
+          <Property Name="PRO_CompanyId" Type="Int32" />
+          <Property Name="PRO_probNo" Type="Int32" />
+          <Property Name="PRO_category" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PRO_Problem" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PRO_DepID" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="CallLoggingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Customers" EntityType="Self.Customer" />
+          <EntitySet Name="DeletedMessages" EntityType="Self.DeletedMessage" />
+          <EntitySet Name="Departments" EntityType="Self.Department" />
+          <EntitySet Name="Messages" EntityType="Self.Message" />
+          <EntitySet Name="Problems" EntityType="Self.Problem" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CallLoggingModelStoreContainer" CdmEntityContainer="CallLoggingEntities">
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="CallLoggingModel.Customer">
+              <MappingFragment StoreEntitySet="Customer">
+                <ScalarProperty Name="CUS_UID" ColumnName="CUS_UID" />
+                <ScalarProperty Name="CUS_CompanyId" ColumnName="CUS_CompanyId" />
+                <ScalarProperty Name="CUS_CustCode" ColumnName="CUS_CustCode" />
+                <ScalarProperty Name="CUS_Usergroup" ColumnName="CUS_Usergroup" />
+                <ScalarProperty Name="CUS_Name" ColumnName="CUS_Name" />
+                <ScalarProperty Name="CUS_LegalName" ColumnName="CUS_LegalName" />
+                <ScalarProperty Name="CUS_ActName" ColumnName="CUS_ActName" />
+                <ScalarProperty Name="CUS_Contact" ColumnName="CUS_Contact" />
+                <ScalarProperty Name="CUS_PStreetNo" ColumnName="CUS_PStreetNo" />
+                <ScalarProperty Name="CUS_PSuburb" ColumnName="CUS_PSuburb" />
+                <ScalarProperty Name="CUS_City" ColumnName="CUS_City" />
+                <ScalarProperty Name="CUS_PPostCode" ColumnName="CUS_PPostCode" />
+                <ScalarProperty Name="CUS_DStreetNo" ColumnName="CUS_DStreetNo" />
+                <ScalarProperty Name="CUS_DSuburb" ColumnName="CUS_DSuburb" />
+                <ScalarProperty Name="CUS_DCity" ColumnName="CUS_DCity" />
+                <ScalarProperty Name="CUS_AreaCode" ColumnName="CUS_AreaCode" />
+                <ScalarProperty Name="CUS_Phone" ColumnName="CUS_Phone" />
+                <ScalarProperty Name="CUS_Fax" ColumnName="CUS_Fax" />
+                <ScalarProperty Name="CUS_Mobile" ColumnName="CUS_Mobile" />
+                <ScalarProperty Name="CUS_Email" ColumnName="CUS_Email" />
+                <ScalarProperty Name="CUS_deptTotal" ColumnName="CUS_deptTotal" />
+                <ScalarProperty Name="CUS_CustType" ColumnName="CUS_CustType" />
+                <ScalarProperty Name="CUS_ABDNo" ColumnName="CUS_ABDNo" />
+                <ScalarProperty Name="CUS_TLA" ColumnName="CUS_TLA" />
+                <ScalarProperty Name="CUS_Premier" ColumnName="CUS_Premier" />
+                <ScalarProperty Name="CUS_References" ColumnName="CUS_References" />
+                <ScalarProperty Name="CUS_AccountType" ColumnName="CUS_AccountType" />
+                <ScalarProperty Name="CUS_ForceOrder" ColumnName="CUS_ForceOrder" />
+                <ScalarProperty Name="CUS_InActive" ColumnName="CUS_InActive" />
+                <ScalarProperty Name="CUS_OnHold" ColumnName="CUS_OnHold" />
+                <ScalarProperty Name="CUS_CreditLimit" ColumnName="CUS_CreditLimit" />
+                <ScalarProperty Name="CUS_Discount" ColumnName="CUS_Discount" />
+                <ScalarProperty Name="CUS_Termcode" ColumnName="CUS_Termcode" />
+                <ScalarProperty Name="CUS_TradeType" ColumnName="CUS_TradeType" />
+                <ScalarProperty Name="CUS_Bank" ColumnName="CUS_Bank" />
+                <ScalarProperty Name="CUS_Branch" ColumnName="CUS_Branch" />
+                <ScalarProperty Name="CUS_Payer" ColumnName="CUS_Payer" />
+                <ScalarProperty Name="CUS_Schematics" ColumnName="CUS_Schematics" />
+                <ScalarProperty Name="CUS_OperatingSystem" ColumnName="CUS_OperatingSystem" />
+                <ScalarProperty Name="CUS_Software" ColumnName="CUS_Software" />
+                <ScalarProperty Name="CUS_UserLicences" ColumnName="CUS_UserLicences" />
+                <ScalarProperty Name="CUS_LastUpdate" ColumnName="CUS_LastUpdate" />
+                <ScalarProperty Name="CUS_UpdateComment" ColumnName="CUS_UpdateComment" />
+                <ScalarProperty Name="CUS_Package" ColumnName="CUS_Package" />
+                <ScalarProperty Name="CUS_Version" ColumnName="CUS_Version" />
+                <ScalarProperty Name="CUS_Release" ColumnName="CUS_Release" />
+                <ScalarProperty Name="CUS_SoldBy" ColumnName="CUS_SoldBy" />
+                <ScalarProperty Name="CUS_Trainer" ColumnName="CUS_Trainer" />
+                <ScalarProperty Name="CUS_VPOS" ColumnName="CUS_VPOS" />
+                <ScalarProperty Name="CUS_MIDASPC" ColumnName="CUS_MIDASPC" />
+                <ScalarProperty Name="CUS_TFNZ" ColumnName="CUS_TFNZ" />
+                <ScalarProperty Name="CUS_NewTimeClocking" ColumnName="CUS_NewTimeClocking" />
+                <ScalarProperty Name="CUS_Payroll" ColumnName="CUS_Payroll" />
+                <ScalarProperty Name="CUS_TimeClocking" ColumnName="CUS_TimeClocking" />
+                <ScalarProperty Name="CUS_BankLink" ColumnName="CUS_BankLink" />
+                <ScalarProperty Name="CUS_InstalledOn" ColumnName="CUS_InstalledOn" />
+                <ScalarProperty Name="CUS_ExpiryDate" ColumnName="CUS_ExpiryDate" />
+                <ScalarProperty Name="CUS_LiveDate" ColumnName="CUS_LiveDate" />
+                <ScalarProperty Name="CUS_Industry" ColumnName="CUS_Industry" />
+                <ScalarProperty Name="CUS_DUSupport" ColumnName="CUS_DUSupport" />
+                <ScalarProperty Name="CUS_DUConnection" ColumnName="CUS_DUConnection" />
+                <ScalarProperty Name="CUS_DUMachine" ColumnName="CUS_DUMachine" />
+                <ScalarProperty Name="CUS_ModemPhoneNo" ColumnName="CUS_ModemPhoneNo" />
+                <ScalarProperty Name="CUS_SUserName" ColumnName="CUS_SUserName" />
+                <ScalarProperty Name="CUS_SPassword" ColumnName="CUS_SPassword" />
+                <ScalarProperty Name="CUS_RemoteSoftware" ColumnName="CUS_RemoteSoftware" />
+                <ScalarProperty Name="CUS_SoftwareName" ColumnName="CUS_SoftwareName" />
+                <ScalarProperty Name="CUS_SoftwarePwd" ColumnName="CUS_SoftwarePwd" />
+                <ScalarProperty Name="CUS_IPAddress" ColumnName="CUS_IPAddress" />
+                <ScalarProperty Name="CUS_SDomainName" ColumnName="CUS_SDomainName" />
+                <ScalarProperty Name="CUS_DedicatedServer" ColumnName="CUS_DedicatedServer" />
+                <ScalarProperty Name="CUS_SeeNotes" ColumnName="CUS_SeeNotes" />
+                <ScalarProperty Name="CUS_WarnMess1" ColumnName="CUS_WarnMess1" />
+                <ScalarProperty Name="CUS_Warnmess2" ColumnName="CUS_Warnmess2" />
+                <ScalarProperty Name="CUS_WarnMess3" ColumnName="CUS_WarnMess3" />
+                <ScalarProperty Name="CUS_CreationDate" ColumnName="CUS_CreationDate" />
+                <ScalarProperty Name="CUS_Licence" ColumnName="CUS_Licence" />
+                <ScalarProperty Name="CUS_TrainingComplete" ColumnName="CUS_TrainingComplete" />
+                <ScalarProperty Name="CUS_Diagram" ColumnName="CUS_Diagram" />
+                <ScalarProperty Name="CUS_SignedOff" ColumnName="CUS_SignedOff" />
+                <ScalarProperty Name="CUS_AccMan" ColumnName="CUS_AccMan" />
+                <ScalarProperty Name="CUS_SubFor" ColumnName="CUS_SubFor" />
+                <ScalarProperty Name="CUS_Ports1" ColumnName="CUS_Ports1" />
+                <ScalarProperty Name="CUS_Ports2" ColumnName="CUS_Ports2" />
+                <ScalarProperty Name="CUS_ServerIP" ColumnName="CUS_ServerIP" />
+                <ScalarProperty Name="CUS_ServerName" ColumnName="CUS_ServerName" />
+                <ScalarProperty Name="CUS_TapeDrive" ColumnName="CUS_TapeDrive" />
+                <ScalarProperty Name="CUS_ScheduledDate" ColumnName="CUS_ScheduledDate" />
+                <ScalarProperty Name="CUS_TServerName" ColumnName="CUS_TServerName" />
+                <ScalarProperty Name="CUS_TIP" ColumnName="CUS_TIP" />
+                <ScalarProperty Name="CUS_TDomain" ColumnName="CUS_TDomain" />
+                <ScalarProperty Name="CUS_TUserName" ColumnName="CUS_TUserName" />
+                <ScalarProperty Name="CUS_TPwd" ColumnName="CUS_TPwd" />
+                <ScalarProperty Name="CUS_SoftwareIP" ColumnName="CUS_SoftwareIP" />
+                <ScalarProperty Name="CUS_DUUser" ColumnName="CUS_DUUser" />
+                <ScalarProperty Name="CUS_DUPasswrd" ColumnName="CUS_DUPasswrd" />
+                <ScalarProperty Name="CUS_EmailInvoices" ColumnName="CUS_EmailInvoices" />
+                <ScalarProperty Name="CUS_NoStatement" ColumnName="CUS_NoStatement" />
+                <ScalarProperty Name="CUS_SoftUserName" ColumnName="CUS_SoftUserName" />
+                <ScalarProperty Name="CUS_SPorts1" ColumnName="CUS_SPorts1" />
+                <ScalarProperty Name="CUS_SPorts2" ColumnName="CUS_SPorts2" />
+                <ScalarProperty Name="CUS_TSPorts1" ColumnName="CUS_TSPorts1" />
+                <ScalarProperty Name="CUS_TSPorts2" ColumnName="CUS_TSPorts2" />
+                <ScalarProperty Name="CUS_RSPorts1" ColumnName="CUS_RSPorts1" />
+                <ScalarProperty Name="CUS_RSPorts2" ColumnName="CUS_RSPorts2" />
+                <ScalarProperty Name="CUS_RemoteDomain" ColumnName="CUS_RemoteDomain" />
+                <ScalarProperty Name="CUS_RemoteSDomain" ColumnName="CUS_RemoteSDomain" />
+                <ScalarProperty Name="CUS_TSOS" ColumnName="CUS_TSOS" />
+                <ScalarProperty Name="CUS_LocationFor" ColumnName="CUS_LocationFor" />
+                <ScalarProperty Name="CUS_IsTermserver" ColumnName="CUS_IsTermserver" />
+                <ScalarProperty Name="CUS_Subnet" ColumnName="CUS_Subnet" />
+                <ScalarProperty Name="CUS_CModem" ColumnName="CUS_CModem" />
+                <ScalarProperty Name="CUS_Departments" ColumnName="CUS_Departments" />
+                <ScalarProperty Name="CUS_Utilities" ColumnName="CUS_Utilities" />
+                <ScalarProperty Name="CUS_SignoffDate" ColumnName="CUS_SignoffDate" />
+                <ScalarProperty Name="CUS_EmailStatements" ColumnName="CUS_EmailStatements" />
+                <ScalarProperty Name="CUS_StaticIP" ColumnName="CUS_StaticIP" />
+                <ScalarProperty Name="CUS_BackupSoftware1" ColumnName="CUS_BackupSoftware1" />
+                <ScalarProperty Name="CUS_BackupSoftware2" ColumnName="CUS_BackupSoftware2" />
+                <ScalarProperty Name="CUS_BackupMedia1" ColumnName="CUS_BackupMedia1" />
+                <ScalarProperty Name="CUS_BackupMedia2" ColumnName="CUS_BackupMedia2" />
+                <ScalarProperty Name="CUS_BackupMedia3" ColumnName="CUS_BackupMedia3" />
+                <ScalarProperty Name="CUS_BackUpFreq" ColumnName="CUS_BackUpFreq" />
+                <ScalarProperty Name="CUS_LastBackup" ColumnName="CUS_LastBackup" />
+                <ScalarProperty Name="CUS_LastBackupBy" ColumnName="CUS_LastBackupBy" />
+                <ScalarProperty Name="CUS_LockItUser" ColumnName="CUS_LockItUser" />
+                <ScalarProperty Name="CUS_LockItPwd" ColumnName="CUS_LockItPwd" />
+                <ScalarProperty Name="CUS_LockItKey" ColumnName="CUS_LockItKey" />
+                <ScalarProperty Name="CUS_RefSite" ColumnName="CUS_RefSite" />
+                <ScalarProperty Name="CUS_DesktopSup" ColumnName="CUS_DesktopSup" />
+                <ScalarProperty Name="CUS_ExtendHrsSup" ColumnName="CUS_ExtendHrsSup" />
+                <ScalarProperty Name="CUS_WeekendSup" ColumnName="CUS_WeekendSup" />
+                <ScalarProperty Name="CUS_AutoUpdate" ColumnName="CUS_AutoUpdate" />
+                <ScalarProperty Name="CUS_PreviousSoftware" ColumnName="CUS_PreviousSoftware" />
+                <ScalarProperty Name="CUS_PSVersion" ColumnName="CUS_PSVersion" />
+                <ScalarProperty Name="CUS_MtaNo" ColumnName="CUS_MtaNo" />
+                <ScalarProperty Name="CUS_HasSecond" ColumnName="CUS_HasSecond" />
+                <ScalarProperty Name="CUS_Exclude" ColumnName="CUS_Exclude" />
+                <ScalarProperty Name="CUS_InactiveReason" ColumnName="CUS_InactiveReason" />
+                <ScalarProperty Name="CUS_SoldTo" ColumnName="CUS_SoldTo" />
+                <ScalarProperty Name="CUS_SoldToUID" ColumnName="CUS_SoldToUID" />
+                <ScalarProperty Name="CUS_UpdateSentBy" ColumnName="CUS_UpdateSentBy" />
+                <ScalarProperty Name="CUS_Combine" ColumnName="CUS_Combine" />
+                <ScalarProperty Name="CUS_InvEmail" ColumnName="CUS_InvEmail" />
+                <ScalarProperty Name="CUS_Country" ColumnName="CUS_Country" />
+                <ScalarProperty Name="CUS_PState" ColumnName="CUS_PState" />
+                <ScalarProperty Name="CUS_PCountry" ColumnName="CUS_PCountry" />
+                <ScalarProperty Name="CUS_NoCommission" ColumnName="CUS_NoCommission" />
+                <ScalarProperty Name="CUS_LTNZLic" ColumnName="CUS_LTNZLic" />
+                <ScalarProperty Name="CUS_LTNZSuspend" ColumnName="CUS_LTNZSuspend" />
+                <ScalarProperty Name="CUS_GSTNo" ColumnName="CUS_GSTNo" />
+                <ScalarProperty Name="CUS_Imported" ColumnName="CUS_Imported" />
+                <ScalarProperty Name="CUS_Accountant" ColumnName="CUS_Accountant" />
+                <ScalarProperty Name="CUS_UserLicPur" ColumnName="CUS_UserLicPur" />
+                <ScalarProperty Name="CUS_OverDue" ColumnName="CUS_OverDue" />
+                <ScalarProperty Name="CUS_RentalServer" ColumnName="CUS_RentalServer" />
+                <ScalarProperty Name="CUS_RentalPC" ColumnName="CUS_RentalPC" />
+                <ScalarProperty Name="CUS_RentalPrinter" ColumnName="CUS_RentalPrinter" />
+                <ScalarProperty Name="CUS_HostedServer" ColumnName="CUS_HostedServer" />
+                <ScalarProperty Name="CUS_CitrixHosted" ColumnName="CUS_CitrixHosted" />
+                <ScalarProperty Name="CUS_HostedMailServer" ColumnName="CUS_HostedMailServer" />
+                <ScalarProperty Name="CUS_ManagedServices" ColumnName="CUS_ManagedServices" />
+                <ScalarProperty Name="CUS_ServerSupplied" ColumnName="CUS_ServerSupplied" />
+                <ScalarProperty Name="CUS_PCSupplied" ColumnName="CUS_PCSupplied" />
+                <ScalarProperty Name="CUS_PrinterSupplied" ColumnName="CUS_PrinterSupplied" />
+                <ScalarProperty Name="CUS_Firewall" ColumnName="CUS_Firewall" />
+                <ScalarProperty Name="CUS_WarnigDate" ColumnName="CUS_WarnigDate" />
+                <ScalarProperty Name="CUS_LastUpdateBy" ColumnName="CUS_LastUpdateBy" />
+                <ScalarProperty Name="CUS_LockItBackup" ColumnName="CUS_LockItBackup" />
+                <ScalarProperty Name="CUS_VirusPrSupplied" ColumnName="CUS_VirusPrSupplied" />
+                <ScalarProperty Name="CUS_VirusPrdate" ColumnName="CUS_VirusPrdate" />
+                <ScalarProperty Name="CUS_VirusPrNo" ColumnName="CUS_VirusPrNo" />
+                <ScalarProperty Name="CUS_ServerDate" ColumnName="CUS_ServerDate" />
+                <ScalarProperty Name="CUS_ServerNos" ColumnName="CUS_ServerNos" />
+                <ScalarProperty Name="CUS_PCDate" ColumnName="CUS_PCDate" />
+                <ScalarProperty Name="CUS_PCNos" ColumnName="CUS_PCNos" />
+                <ScalarProperty Name="CUS_PrinterDate" ColumnName="CUS_PrinterDate" />
+                <ScalarProperty Name="CUS_PrinterNos" ColumnName="CUS_PrinterNos" />
+                <ScalarProperty Name="CUS_DState" ColumnName="CUS_DState" />
+                <ScalarProperty Name="CUS_DCountry" ColumnName="CUS_DCountry" />
+                <ScalarProperty Name="CUS_RentalServerDate" ColumnName="CUS_RentalServerDate" />
+                <ScalarProperty Name="CUS_RentalServerNo" ColumnName="CUS_RentalServerNo" />
+                <ScalarProperty Name="CUS_RentalPCDate" ColumnName="CUS_RentalPCDate" />
+                <ScalarProperty Name="CUS_RentalPCNo" ColumnName="CUS_RentalPCNo" />
+                <ScalarProperty Name="CUS_RentalprinterDate" ColumnName="CUS_RentalprinterDate" />
+                <ScalarProperty Name="CUS_CitrixHostingDate" ColumnName="CUS_CitrixHostingDate" />
+                <ScalarProperty Name="CUS_RentalPrinterNo" ColumnName="CUS_RentalPrinterNo" />
+                <ScalarProperty Name="CUS_CitrixHostingNumber" ColumnName="CUS_CitrixHostingNumber" />
+                <ScalarProperty Name="CUS_FirewallDate" ColumnName="CUS_FirewallDate" />
+                <ScalarProperty Name="CUS_FirewallNo" ColumnName="CUS_FirewallNo" />
+                <ScalarProperty Name="CUS_DesktopSupDate" ColumnName="CUS_DesktopSupDate" />
+                <ScalarProperty Name="CUS_DesktopSupNo" ColumnName="CUS_DesktopSupNo" />
+                <ScalarProperty Name="CUS_ISPmailServer" ColumnName="CUS_ISPmailServer" />
+                <ScalarProperty Name="CUS_ISPmailServerDate" ColumnName="CUS_ISPmailServerDate" />
+                <ScalarProperty Name="CUS_ISPmailServerNos" ColumnName="CUS_ISPmailServerNos" />
+                <ScalarProperty Name="CUS_RMVTno" ColumnName="CUS_RMVTno" />
+                <ScalarProperty Name="CUS_SSNo" ColumnName="CUS_SSNo" />
+                <ScalarProperty Name="CUS_SystemNotes" ColumnName="CUS_SystemNotes" />
+                <ScalarProperty Name="CUS_Notes" ColumnName="CUS_Notes" />
+                <ScalarProperty Name="CUS_SuspendReason" ColumnName="CUS_SuspendReason" />
+                <ScalarProperty Name="CUS_RemoteControlNotes" ColumnName="CUS_RemoteControlNotes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DeletedMessages">
+            <EntityTypeMapping TypeName="CallLoggingModel.DeletedMessage">
+              <MappingFragment StoreEntitySet="DeletedMessage">
+                <ScalarProperty Name="DelMes_UID" ColumnName="DelMes_UID" />
+                <ScalarProperty Name="DelMes_DESCRIPTION" ColumnName="DelMes_DESCRIPTION" />
+                <ScalarProperty Name="DelMes_RESPONSE" ColumnName="DelMes_RESPONSE" />
+                <ScalarProperty Name="DelMes_NOTES" ColumnName="DelMes_NOTES" />
+                <ScalarProperty Name="DelMes_CompanyId" ColumnName="DelMes_CompanyId" />
+                <ScalarProperty Name="DelMes_MESSNO" ColumnName="DelMes_MESSNO" />
+                <ScalarProperty Name="DelMes_DeletedBY" ColumnName="DelMes_DeletedBY" />
+                <ScalarProperty Name="DelMes_DateDeleted" ColumnName="DelMes_DateDeleted" />
+                <ScalarProperty Name="DelMes_SYSTIMEREFERENCE" ColumnName="DelMes_SYSTIMEREFERENCE" />
+                <ScalarProperty Name="DelMes_FORWARDED" ColumnName="DelMes_FORWARDED" />
+                <ScalarProperty Name="DelMes_URGENT" ColumnName="DelMes_URGENT" />
+                <ScalarProperty Name="DelMes_OPENED" ColumnName="DelMes_OPENED" />
+                <ScalarProperty Name="DELMES_MessDateTime" ColumnName="DELMES_MessDateTime" />
+                <ScalarProperty Name="DelMes_CUSTCODE" ColumnName="DelMes_CUSTCODE" />
+                <ScalarProperty Name="DELMES_CustomerUID" ColumnName="DELMES_CustomerUID" />
+                <ScalarProperty Name="DelMes_CONTACT" ColumnName="DelMes_CONTACT" />
+                <ScalarProperty Name="DelMes_PHONE" ColumnName="DelMes_PHONE" />
+                <ScalarProperty Name="DelMes_TAKENBY" ColumnName="DelMes_TAKENBY" />
+                <ScalarProperty Name="DelMes_STAFFCODE" ColumnName="DelMes_STAFFCODE" />
+                <ScalarProperty Name="DelMes_ORDERNO" ColumnName="DelMes_ORDERNO" />
+                <ScalarProperty Name="DelMes_CATEGORY" ColumnName="DelMes_CATEGORY" />
+                <ScalarProperty Name="DelMes_PROBLEM" ColumnName="DelMes_PROBLEM" />
+                <ScalarProperty Name="DelMes_PRIORITY" ColumnName="DelMes_PRIORITY" />
+                <ScalarProperty Name="DelMes_ERROR" ColumnName="DelMes_ERROR" />
+                <ScalarProperty Name="DelMes_CHANNEL" ColumnName="DelMes_CHANNEL" />
+                <ScalarProperty Name="DelMes_RECORDNO" ColumnName="DelMes_RECORDNO" />
+                <ScalarProperty Name="DelMes_FILE" ColumnName="DelMes_FILE" />
+                <ScalarProperty Name="DelMes_LINE" ColumnName="DelMes_LINE" />
+                <ScalarProperty Name="DelMes_INPROGRAM" ColumnName="DelMes_INPROGRAM" />
+                <ScalarProperty Name="DelMes_FUNCCODE" ColumnName="DelMes_FUNCCODE" />
+                <ScalarProperty Name="DelMes_STATUS" ColumnName="DelMes_STATUS" />
+                <ScalarProperty Name="DelMes_FORWARDEDTO" ColumnName="DelMes_FORWARDEDTO" />
+                <ScalarProperty Name="DelMes_RESOLVEDON" ColumnName="DelMes_RESOLVEDON" />
+                <ScalarProperty Name="DelMes_RESOLVEDAT" ColumnName="DelMes_RESOLVEDAT" />
+                <ScalarProperty Name="DelMes_FOLLOWUPDATE" ColumnName="DelMes_FOLLOWUPDATE" />
+                <ScalarProperty Name="DelMes_PRINTED" ColumnName="DelMes_PRINTED" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="CallLoggingModel.Department">
+              <MappingFragment StoreEntitySet="Departments">
+                <ScalarProperty Name="DEP_UID" ColumnName="DEP_UID" />
+                <ScalarProperty Name="DEP_CompanyId" ColumnName="DEP_CompanyId" />
+                <ScalarProperty Name="DEP_DEPID" ColumnName="DEP_DEPID" />
+                <ScalarProperty Name="DEP_DepDesc" ColumnName="DEP_DepDesc" />
+                <ScalarProperty Name="DEP_Secondary" ColumnName="DEP_Secondary" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Messages">
+            <EntityTypeMapping TypeName="CallLoggingModel.Message">
+              <MappingFragment StoreEntitySet="Message">
+                <ScalarProperty Name="MES_UID" ColumnName="MES_UID" />
+                <ScalarProperty Name="MES_CompanyId" ColumnName="MES_CompanyId" />
+                <ScalarProperty Name="MES_MessNo" ColumnName="MES_MessNo" />
+                <ScalarProperty Name="MES_SystimeReference" ColumnName="MES_SystimeReference" />
+                <ScalarProperty Name="MES_Forwarded" ColumnName="MES_Forwarded" />
+                <ScalarProperty Name="MES_Urgent" ColumnName="MES_Urgent" />
+                <ScalarProperty Name="MES_Opened" ColumnName="MES_Opened" />
+                <ScalarProperty Name="MES_MesDateTime" ColumnName="MES_MesDateTime" />
+                <ScalarProperty Name="MES_CustCode" ColumnName="MES_CustCode" />
+                <ScalarProperty Name="MES_CustomerUID" ColumnName="MES_CustomerUID" />
+                <ScalarProperty Name="MES_Contact" ColumnName="MES_Contact" />
+                <ScalarProperty Name="MES_Phone" ColumnName="MES_Phone" />
+                <ScalarProperty Name="MES_TakenBy" ColumnName="MES_TakenBy" />
+                <ScalarProperty Name="MES_StaffCode" ColumnName="MES_StaffCode" />
+                <ScalarProperty Name="MES_StaffDep" ColumnName="MES_StaffDep" />
+                <ScalarProperty Name="MES_OrderNo" ColumnName="MES_OrderNo" />
+                <ScalarProperty Name="MES_Category" ColumnName="MES_Category" />
+                <ScalarProperty Name="MES_Problem" ColumnName="MES_Problem" />
+                <ScalarProperty Name="MES_Priority" ColumnName="MES_Priority" />
+                <ScalarProperty Name="MES_Error" ColumnName="MES_Error" />
+                <ScalarProperty Name="MES_Channel" ColumnName="MES_Channel" />
+                <ScalarProperty Name="MES_RecordNo" ColumnName="MES_RecordNo" />
+                <ScalarProperty Name="MES_File" ColumnName="MES_File" />
+                <ScalarProperty Name="MES_Line" ColumnName="MES_Line" />
+                <ScalarProperty Name="MES_InProgram" ColumnName="MES_InProgram" />
+                <ScalarProperty Name="MES_FuncCode" ColumnName="MES_FuncCode" />
+                <ScalarProperty Name="MES_Status" ColumnName="MES_Status" />
+                <ScalarProperty Name="MES_ProgramReq" ColumnName="MES_ProgramReq" />
+                <ScalarProperty Name="MES_IssueReg" ColumnName="MES_IssueReg" />
+                <ScalarProperty Name="MES_SamInv" ColumnName="MES_SamInv" />
+                <ScalarProperty Name="MES_WaitStatus" ColumnName="MES_WaitStatus" />
+                <ScalarProperty Name="MES_ForwardedTo" ColumnName="MES_ForwardedTo" />
+                <ScalarProperty Name="MES_ResolvedDateTime" ColumnName="MES_ResolvedDateTime" />
+                <ScalarProperty Name="MES_FollowUpDate" ColumnName="MES_FollowUpDate" />
+                <ScalarProperty Name="MES_Printed" ColumnName="MES_Printed" />
+                <ScalarProperty Name="MES_AcceptTrain" ColumnName="MES_AcceptTrain" />
+                <ScalarProperty Name="MES_InUseBy" ColumnName="MES_InUseBy" />
+                <ScalarProperty Name="MES_Department" ColumnName="MES_Department" />
+                <ScalarProperty Name="MES_Description" ColumnName="MES_Description" />
+                <ScalarProperty Name="MES_Response" ColumnName="MES_Response" />
+                <ScalarProperty Name="MES_Notes" ColumnName="MES_Notes" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Problems">
+            <EntityTypeMapping TypeName="CallLoggingModel.Problem">
+              <MappingFragment StoreEntitySet="Problems">
+                <ScalarProperty Name="PRO_UID" ColumnName="PRO_UID" />
+                <ScalarProperty Name="PRO_CompanyId" ColumnName="PRO_CompanyId" />
+                <ScalarProperty Name="PRO_probNo" ColumnName="PRO_probNo" />
+                <ScalarProperty Name="PRO_category" ColumnName="PRO_category" />
+                <ScalarProperty Name="PRO_Problem" ColumnName="PRO_Problem" />
+                <ScalarProperty Name="PRO_DepID" ColumnName="PRO_DepID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

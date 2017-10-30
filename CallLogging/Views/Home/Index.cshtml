@@ -1,0 +1,322 @@
+﻿@model CallLogging_Data.CallLoggingViewModel
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "TSI Call Logging System";
+}
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+  <!-- BEGIN HIDDEN FIELDS AREA -->
+    @Html.HiddenFor(m => m.EventCommand)
+    @Html.HiddenFor(m => m.Mode)
+    @Html.HiddenFor(m => m.EventArgument)
+
+  <!-- END HIDDEN FIELDS AREA -->
+
+    if (Model.IsSearchAreaVisible)
+    {
+  <!-- ** BEGIN SEARCH AREA ** -->
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1 class="panel-title">Search for Calls</h1>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    @Html.LabelFor(m => m.SearchEntity.MES_Description, "Message Search")
+                    @Html.TextBoxFor(m => m.SearchEntity.MES_Description,
+                           new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="panel-footer">
+                @Html.BootstrapButton("<i class='glyphicon glyphicon-search'></i>&nbsp;Search",
+                              "btn-sm btn-primary",
+                              "searchButton",
+                              "Click here to search",
+                              false,
+                              false,
+                              HtmlExtensionsCommon.HtmlButtonTypes.submit,
+                              "search")
+
+                <button id="btnReset"
+                        class="btn btn-sm btn-primary"
+                        data-pdsa-action="resetsearch">
+                    <i class="glyphicon glyphicon-share-alt"></i>&nbsp;Reset
+                </button>
+                <button id="btnAdd"
+                        class="btn btn-sm btn-success"
+                        data-pdsa-action="add">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    &nbsp;Add
+                </button>
+            </div>
+        </div>
+   <!-- ** END SEARCH AREA ** -->
+    }
+
+    if (Model.IsDetailAreaVisible)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1 class="panel-title">
+                    Call Log Details
+                </h1>
+            </div>
+            <div id="DetailInput" class="panel-body">
+                <!-- ** BEGIN MESSAGE AREA -->
+                <div class="row">
+                    <div class="col-md-12">
+                        @if (!Model.IsValid)
+                        {
+                            <div class="alert alert-danger
+                    alert-dismissable"
+                                 role="alert">
+                                <button type="button" class="close"
+                                        data-dismiss="alert">
+                                    <span aria-hidden="true">
+                                        &times;
+                                    </span>
+                                    <span class="sr-only">Close</span>
+                                </button>
+                                @Html.ValidationSummary(false)
+                            </div>
+                        }
+                    </div>
+                </div>
+                <!-- ** END MESSAGE AREA -->
+                <!-- ** BEGIN INPUT AREA -->
+
+
+                <div class="form-inline">
+                    @Html.LabelFor(m => m.Entity.MES_Description, "Log Number: ")
+                    @Html.BootstrapTextBoxFor(m => m.Entity.MES_UID,
+             HtmlExtensionsCommon.Html5InputTypes.number, new { @readonly = "readonly" })
+                    @Html.LabelFor(m => m.Entity.MES_MesDateTime, "Date")
+                    @Html.BootstrapTextBoxFor(m => m.Entity.MES_MesDateTime,
+             HtmlExtensionsCommon.Html5InputTypes.datetime, new { @readonly = "readonly" })
+                </div>
+                <br />
+                <div class="form-inline">
+
+                    @Html.LabelFor(m => m.Entity.MES_CustomerUID, "Client Name: ")
+
+                    @Html.DropDownListFor(m => m.Entity.MES_CustomerUID, Model.CustomersDropDown, "--Select--", new { @class = "form-control dropdown", @id = "ClientNameDropDown" })
+
+
+                    @Html.LabelFor(m => m.Entity.MES_CustomerUID, " Category:    ")
+
+                    @Html.DropDownListFor(m => m.Entity.MES_Category, Model.MessageCategoriesDropDown, "--Select--", new { @class = "form-control dropdown", @id = "CategoryDropDown" })
+
+                    @Html.LabelFor(m => m.Entity.MES_CustomerUID, " Problem: ")
+
+                    @Html.DropDownListFor(m => m.Entity.MES_Problem, new SelectList(string.Empty, "Value", "Text"), "--Select--", new { @class = "form-control dropdown", @id = "ProblemDropDown" })
+                </div>
+                <br />
+                <div class="form-inline">
+
+                    @Html.LabelFor(m => m.Entity.MES_WaitStatus, " Wait Status ")
+                    @Html.BootstrapTextBoxFor(m => m.Entity.MES_WaitStatus, HtmlExtensionsCommon.Html5InputTypes.text, new { disabled = "disabled" })
+                    @Html.LabelFor(m => m.Entity.MES_StaffCode, " Consultant ")
+                    @Html.BootstrapTextBoxFor(m => m.Entity.MES_StaffCode, HtmlExtensionsCommon.Html5InputTypes.text, new { disabled = "disabled" })
+                    @Html.LabelFor(m => m.Entity.MES_Urgent, " Urgent ")
+                    @Html.BootstrapCheckBoxFor(m => m.Entity.UrgentBool, "")
+                </div>
+                <br />
+                <div class="form-group">
+
+                    @Html.LabelFor(m => m.Entity.MES_Description, "Log Description")
+
+                    @Html.BootstrapTextAreaFor(m => m.Entity.MES_Description,
+             HtmlExtensionsCommon.Html5InputTypes.text,
+             "Message Details",
+             "Message Details",
+             true,
+             true, new { @rows = "8" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Entity.MES_Response, "Message Response")
+                    @Html.BootstrapTextAreaFor(m => m.Entity.MES_Response,
+        HtmlExtensionsCommon.Html5InputTypes.text,
+         "Response",
+        "Message Response",
+        true,
+        false, new { @readonly = "readonly", @rows = "8" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Entity.MES_Status, "Status: ")
+                    @Html.LabelFor(m => m.Entity.MES_Status, Model.Entity.MES_Status)
+
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Select File</label>
+                    @Html.TextBoxFor(m => m.Files, new { type = "file", multiple = "true", @class = "file" })
+
+                </div>
+
+                @*<div class="form-group">
+                      @Html.BootstrapCheckBoxFor(
+                         m => m.Entity.MES_Urgent,
+                         "Urgent",
+                         "Is Urgent?", false, true)
+
+                      @Html.BootstrapCheckBoxFor(
+                         m => m.Entity.CanBeDiscounted,
+                         "Can be Discounted?",
+                         "", false, true)
+                    </div>*@
+                <!-- ** END INPUT AREA -->
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-sm-12">
+                        @if (Model.Mode != "display")
+                        {
+                            <button id="btnSave"
+                                    class="btn btn-sm btn-primary"
+                                    data-pdsa-action="save">
+                                <i class="glyphicon glyphicon-floppy-disk"></i>
+                                &nbsp;Save
+                            </button>
+                        }
+                        <button id="btnCancel"
+                                class="btn btn-sm btn-primary"
+                                formnovalidate="formnovalidate"
+                                data-pdsa-action="cancel">
+                            <i class="glyphicon glyphicon-remove-circle"></i>
+                            &nbsp;Cancel
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+
+    if (Model.IsListAreaVisible)
+    {
+      <!-- BEGIN GRID AREA -->
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered table-striped table-hover" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th class="pdsa-action-button-column">
+                            Edit
+                        </th>
+                        <th>Message Number</th>
+                        <th>Message Date</th>
+                        <th>Company Code</th>
+                        <th>Message Desc</th>
+                        <th>Status</th>
+
+                        @*<th class="pdsa-action-button-column">
+                              Delete
+                            </th>*@
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model.PagedMessages)
+                    {
+                        <tr>
+                            <td class="pdsa-action-button-column">
+                                @if (item.MES_Status != "Resolved")
+                                {
+                                    <a href="#" data-pdsa-action="edit"
+                                       data-pdsa-val="@item.MES_UID" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-edit"></i>
+                                    </a>
+                                }
+
+                            </td>
+                            <td class="pdsa-action-button-column">
+                                <a href="#" data-pdsa-action="display"
+                                   data-pdsa-val="@item.MES_UID">
+                                    @item.MES_UID
+                                </a>
+                            </td>
+                            <td>@String.Format("{0:dd/MM/yyyy}", item.MES_MesDateTime)</td>
+                            <td>@item.MES_CustCode</td>
+                            <td>@(item.MES_Description.Length > 200 ? item.MES_Description.Substring(0, 200) : item.MES_Description)</td>
+                            <td>@item.MES_Status</td>
+                            @*<td class="pdsa-action-button-column">
+                                <a href="#" data-pdsa-action="delete"
+                                   data-pdsa-val="@item.ProductId"
+                                   onclick="return confirm('Delete this Product?');"
+                                   class="btn btn-default btn-sm">
+                                  <i class="glyphicon glyphicon-trash"></i>
+                                </a>
+                                          </td>*@
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            Page @(Model.PagedMessages.PageNumber < Model.PagedMessages.PageNumber ? 0 : Model.PagedMessages.PageNumber) of @Model.PagedMessages.PageCount
+
+            @Html.PagedListPager(Model.PagedMessages, page => Url.Action("Index",
+    new { page }))
+        </div>
+      <!-- END GRID AREA -->
+    }
+}
+
+@section scripts {
+    @if (Model.Mode == "display")
+    {
+        <script>
+            $(document).ready(function () {
+                $("#DetailInput :input").attr("disabled", true);
+            });
+        </script>
+    }
+    <script>
+        $(document).ready(function () {
+            var CompanyIdent = '@Model.CompanyId';
+            $("#CategoryDropDown").change(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GetProblems")',
+                    data: { Category: $("#CategoryDropDown option:selected").text(), CompanyId: CompanyIdent },
+                    success: function (data) {
+                        $("#ProblemDropDown").empty();
+                        $.each(data, function (i, problem) {
+                            $("#ProblemDropDown").append('<option value="' + problem.Value + '">' + problem.Text + '</option>')
+                        })
+                    }
+
+                })
+            })
+
+
+
+
+            $("[data-pdsa-action]").on("click", function (e) {
+                e.preventDefault();
+
+                $("#EventCommand").val(
+                  $(this).data("pdsa-action"));
+
+                $("#EventArgument").val(
+                  $(this).attr("data-pdsa-val"));
+
+                $("form").submit();
+            });
+        });
+
+
+    </script>
+    @if (Model.Mode != "Add")
+    {
+        <script>
+            $(document).ready(function () {
+                $("#ClientNameDropDown").prop("disabled", true);
+                $("#CategoryDropDown").prop("disabled", true);
+                $("#ProblemDropDown").prop("disabled", true);
+
+
+            });
+        </script>
+    }
+}

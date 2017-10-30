@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CallLoggingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CUS_UID" />
+    </Key>
+    <Property Name="CUS_UID" Type="Int32" Nullable="false" />
+    <Property Name="CUS_CompanyId" Type="Int32" />
+    <Property Name="CUS_CustCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Usergroup" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LegalName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_ActName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Contact" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_PStreetNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_PSuburb" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_City" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_PPostCode" Type="Int32" />
+    <Property Name="CUS_DStreetNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DSuburb" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DCity" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_AreaCode" Type="Int32" />
+    <Property Name="CUS_Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_deptTotal" Type="Byte" />
+    <Property Name="CUS_CustType" Type="Int32" />
+    <Property Name="CUS_ABDNo" Type="Int16" />
+    <Property Name="CUS_TLA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Premier" Type="Byte" />
+    <Property Name="CUS_References" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_AccountType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_ForceOrder" Type="Byte" />
+    <Property Name="CUS_InActive" Type="Byte" />
+    <Property Name="CUS_OnHold" Type="Byte" />
+    <Property Name="CUS_CreditLimit" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="CUS_Discount" Type="Int32" />
+    <Property Name="CUS_Termcode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TradeType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Bank" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Branch" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Payer" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Schematics" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_OperatingSystem" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Software" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_UserLicences" Type="Int16" />
+    <Property Name="CUS_LastUpdate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_UpdateComment" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Package" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Version" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Release" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoldBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Trainer" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_VPOS" Type="Byte" />
+    <Property Name="CUS_MIDASPC" Type="Byte" />
+    <Property Name="CUS_TFNZ" Type="Byte" />
+    <Property Name="CUS_NewTimeClocking" Type="Byte" />
+    <Property Name="CUS_Payroll" Type="Byte" />
+    <Property Name="CUS_TimeClocking" Type="Byte" />
+    <Property Name="CUS_BankLink" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_InstalledOn" Type="DateTime" Precision="3" />
+    <Property Name="CUS_ExpiryDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_LiveDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_Industry" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DUSupport" Type="Byte" />
+    <Property Name="CUS_DUConnection" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DUMachine" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_ModemPhoneNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RemoteSoftware" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoftwareName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoftwarePwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SDomainName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DedicatedServer" Type="Byte" />
+    <Property Name="CUS_SeeNotes" Type="Byte" />
+    <Property Name="CUS_WarnMess1" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Warnmess2" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_WarnMess3" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_CreationDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_Licence" Type="Byte" />
+    <Property Name="CUS_TrainingComplete" Type="Byte" />
+    <Property Name="CUS_Diagram" Type="Byte" />
+    <Property Name="CUS_SignedOff" Type="Byte" />
+    <Property Name="CUS_AccMan" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SubFor" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Ports1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Ports2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_ServerIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_ServerName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TapeDrive" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_ScheduledDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_TServerName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TDomain" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TPwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoftwareIP" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DUUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DUPasswrd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_EmailInvoices" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_NoStatement" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoftUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SPorts1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SPorts2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TSPorts1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TSPorts2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RSPorts1" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RSPorts2" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RemoteDomain" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RemoteSDomain" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_TSOS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LocationFor" Type="Byte" />
+    <Property Name="CUS_IsTermserver" Type="Byte" />
+    <Property Name="CUS_Subnet" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_CModem" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Departments" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Utilities" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SignoffDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_EmailStatements" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_StaticIP" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_BackupSoftware1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_BackupSoftware2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_BackupMedia1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_BackupMedia2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_BackupMedia3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_BackUpFreq" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LastBackup" Type="DateTime" Precision="3" />
+    <Property Name="CUS_LastBackupBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LockItUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LockItPwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LockItKey" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RefSite" Type="Byte" />
+    <Property Name="CUS_DesktopSup" Type="Byte" />
+    <Property Name="CUS_ExtendHrsSup" Type="Byte" />
+    <Property Name="CUS_WeekendSup" Type="Byte" />
+    <Property Name="CUS_AutoUpdate" Type="Byte" />
+    <Property Name="CUS_PreviousSoftware" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_PSVersion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_MtaNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_HasSecond" Type="Byte" />
+    <Property Name="CUS_Exclude" Type="Byte" />
+    <Property Name="CUS_InactiveReason" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoldTo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SoldToUID" Type="Int32" />
+    <Property Name="CUS_UpdateSentBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Combine" Type="Byte" />
+    <Property Name="CUS_InvEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Country" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_PState" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_PCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_NoCommission" Type="Byte" />
+    <Property Name="CUS_LTNZLic" Type="Byte" />
+    <Property Name="CUS_LTNZSuspend" Type="Byte" />
+    <Property Name="CUS_GSTNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Imported" Type="Byte" />
+    <Property Name="CUS_Accountant" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_UserLicPur" Type="Int16" />
+    <Property Name="CUS_OverDue" Type="Byte" />
+    <Property Name="CUS_RentalServer" Type="Byte" />
+    <Property Name="CUS_RentalPC" Type="Byte" />
+    <Property Name="CUS_RentalPrinter" Type="Byte" />
+    <Property Name="CUS_HostedServer" Type="Byte" />
+    <Property Name="CUS_CitrixHosted" Type="Byte" />
+    <Property Name="CUS_HostedMailServer" Type="Byte" />
+    <Property Name="CUS_ManagedServices" Type="Byte" />
+    <Property Name="CUS_ServerSupplied" Type="Byte" />
+    <Property Name="CUS_PCSupplied" Type="Byte" />
+    <Property Name="CUS_PrinterSupplied" Type="Byte" />
+    <Property Name="CUS_Firewall" Type="Byte" />
+    <Property Name="CUS_WarnigDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_LastUpdateBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_LockItBackup" Type="Byte" />
+    <Property Name="CUS_VirusPrSupplied" Type="Byte" />
+    <Property Name="CUS_VirusPrdate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_VirusPrNo" Type="Int16" />
+    <Property Name="CUS_ServerDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_ServerNos" Type="Int16" />
+    <Property Name="CUS_PCDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_PCNos" Type="Int16" />
+    <Property Name="CUS_PrinterDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_PrinterNos" Type="Int16" />
+    <Property Name="CUS_DState" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_DCountry" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RentalServerDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_RentalServerNo" Type="Int16" />
+    <Property Name="CUS_RentalPCDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_RentalPCNo" Type="Int16" />
+    <Property Name="CUS_RentalprinterDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_CitrixHostingDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_RentalPrinterNo" Type="Int16" />
+    <Property Name="CUS_CitrixHostingNumber" Type="Int16" />
+    <Property Name="CUS_FirewallDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_FirewallNo" Type="Int16" />
+    <Property Name="CUS_DesktopSupDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_DesktopSupNo" Type="Int16" />
+    <Property Name="CUS_ISPmailServer" Type="Byte" />
+    <Property Name="CUS_ISPmailServerDate" Type="DateTime" Precision="3" />
+    <Property Name="CUS_ISPmailServerNos" Type="Int16" />
+    <Property Name="CUS_RMVTno" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SSNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SystemNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_SuspendReason" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CUS_RemoteControlNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="DeletedMessage">
+    <Key>
+      <PropertyRef Name="DelMes_UID" />
+    </Key>
+    <Property Name="DelMes_UID" Type="Int32" Nullable="false" />
+    <Property Name="DelMes_DESCRIPTION" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_RESPONSE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_NOTES" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_CompanyId" Type="Int32" />
+    <Property Name="DelMes_MESSNO" Type="Int32" />
+    <Property Name="DelMes_DeletedBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_DateDeleted" Type="DateTime" Precision="3" />
+    <Property Name="DelMes_SYSTIMEREFERENCE" Type="Int32" />
+    <Property Name="DelMes_FORWARDED" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_URGENT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_OPENED" Type="Byte" />
+    <Property Name="DELMES_MessDateTime" Type="DateTime" Precision="3" />
+    <Property Name="DelMes_CUSTCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DELMES_CustomerUID" Type="Int32" />
+    <Property Name="DelMes_CONTACT" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_PHONE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_TAKENBY" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_STAFFCODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_ORDERNO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_CATEGORY" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_PROBLEM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_PRIORITY" Type="Int16" />
+    <Property Name="DelMes_ERROR" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_CHANNEL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_RECORDNO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_FILE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_LINE" Type="Int32" />
+    <Property Name="DelMes_INPROGRAM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_FUNCCODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_STATUS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_FORWARDEDTO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_RESOLVEDON" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_RESOLVEDAT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DelMes_FOLLOWUPDATE" Type="DateTime" Precision="3" />
+    <Property Name="DelMes_PRINTED" Type="Byte" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DEP_UID" />
+    </Key>
+    <Property Name="DEP_UID" Type="Int32" Nullable="false" />
+    <Property Name="DEP_CompanyId" Type="Int32" />
+    <Property Name="DEP_DEPID" Type="Int32" />
+    <Property Name="DEP_DepDesc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DEP_Secondary" Type="Byte" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MES_UID" />
+    </Key>
+    <Property Name="MES_UID" Type="Int32" Nullable="false" />
+    <Property Name="MES_CompanyId" Type="Int32" />
+    <Property Name="MES_MessNo" Type="Int32" />
+    <Property Name="MES_SystimeReference" Type="Int32" />
+    <Property Name="MES_Forwarded" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Urgent" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Opened" Type="Byte" />
+    <Property Name="MES_MesDateTime" Type="DateTime" Precision="3" />
+    <Property Name="MES_CustCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_CustomerUID" Type="Int32" />
+    <Property Name="MES_Contact" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="MES_TakenBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_StaffCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_StaffDep" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_OrderNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Category" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Problem" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Priority" Type="Int16" />
+    <Property Name="MES_Error" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Channel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_RecordNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_File" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Line" Type="Int32" />
+    <Property Name="MES_InProgram" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_FuncCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Status" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_ProgramReq" Type="Byte" />
+    <Property Name="MES_IssueReg" Type="Byte" />
+    <Property Name="MES_SamInv" Type="Byte" />
+    <Property Name="MES_WaitStatus" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="MES_ForwardedTo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_ResolvedDateTime" Type="DateTime" Precision="3" />
+    <Property Name="MES_FollowUpDate" Type="DateTime" Precision="3" />
+    <Property Name="MES_Printed" Type="Byte" />
+    <Property Name="MES_AcceptTrain" Type="Byte" />
+    <Property Name="MES_InUseBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Department" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Response" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MES_Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Problem">
+    <Key>
+      <PropertyRef Name="PRO_UID" />
+    </Key>
+    <Property Name="PRO_UID" Type="Int32" Nullable="false" />
+    <Property Name="PRO_CompanyId" Type="Int32" />
+    <Property Name="PRO_probNo" Type="Int32" />
+    <Property Name="PRO_category" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PRO_Problem" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PRO_DepID" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="CallLoggingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="DeletedMessages" EntityType="Self.DeletedMessage" />
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Messages" EntityType="Self.Message" />
+    <EntitySet Name="Problems" EntityType="Self.Problem" />
+  </EntityContainer>
+</Schema>

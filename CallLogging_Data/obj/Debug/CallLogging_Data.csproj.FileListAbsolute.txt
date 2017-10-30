@@ -1,0 +1,118 @@
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.csprojResolveAssemblyReference.cache
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll.config
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.pdb
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Mark\documents\visual studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll.config
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.pdb
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.csprojResolveAssemblyReference.cache
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.dll
+E:\Current Mary\Documents\Visual Studio 2015\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll.config
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.pdb
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.xml
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.csprojResolveAssemblyReference.cache
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.csproj.CoreCompileInputs.cache
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.dll
+L:\My Documents\Visual Studio 2017\Projects\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll.config
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Data.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\PagedList.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\CallLogging_Common.pdb
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\PagedList.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\PagedList.Mvc.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.Helpers.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.Mvc.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.Razor.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.csprojResolveAssemblyReference.cache
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.csproj.CoreCompileInputs.cache
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.dll
+C:\Users\marwan.butrus\Source17\Workspaces\CallLogging\CallLogging_Data\obj\Debug\CallLogging_Data.pdb
